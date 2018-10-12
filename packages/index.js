@@ -1,12 +1,14 @@
-// This file is auto gererated by build/build-entry.js
+// 此文件是通过 build/build-entry.js 自动生成的
 import Actionsheet from './actionsheet';
 import Button from './button';
 import Lazyload from './lazyload';
+import Locale from './locale';
 
 const version = '0.0.1';
 const components = [
   Actionsheet,
-  Button
+  Button,
+  Locale
 ];
 
 const install = Vue => {
@@ -24,7 +26,8 @@ export {
   version,
   Actionsheet,
   Button,
-  Lazyload
+  Lazyload,
+  Locale
 };
 
 export default {

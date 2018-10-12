@@ -1,4 +1,4 @@
-// This file is auto gererated by build/build-entry.js
+// 此文件是通过 build/build-entry.js 自动生成的
 import { wrapper } from './demo-common';
 
 export default {

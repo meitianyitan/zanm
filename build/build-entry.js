@@ -4,29 +4,34 @@ const glob = require('fast-glob');
 const uppercamelize = require('uppercamelcase');
 const Components = require('./get-components');
 const version = process.env.VERSION || require('../package.json').version;
-const tips = '// This file is auto gererated by build/build-entry.js';
+const tips = '// 此文件是通过 build/build-entry.js 自动生成的';
 const root = path.join(__dirname, '../');
 const join = dir => path.join(root, dir);
 
+// 生成 zanm 入口文件
 function buildZanmEntry() {
+  // 无需安装组件
   const uninstallComponents = [
     'Lazyload',
     'Waterfall'
   ];
+  // 引入列表
   const importList = [];
+  // 导出列表
   const exportList = [];
   Components.forEach(name => {
     importList.push(`import ${uppercamelize(name)} from './${name}';`);
     exportList.push(`${uppercamelize(name)}`);
   });
 
-  const intallList = exportList.filter(name => !~uninstallComponents.indexOf(uppercamelize(name)));
+  // 安装列表
+  const installList = exportList.filter(name => !~uninstallComponents.indexOf(uppercamelize(name)));
   const content = `${tips}
 ${importList.join('\n')}
 
 const version = '${version}';
 const components = [
-  ${intallList.join(',\n ')}
+  ${installList.join(',\n  ')}
 ];
 
 const install = Vue => {
