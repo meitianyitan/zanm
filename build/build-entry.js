@@ -94,6 +94,7 @@ function buildDocsEntry() {
       const name = getName(fullPath);
       return `'${name}': () => import('${path.relative(join('docs/src'), fullPath)}')`;
     });
+
   // 将要写入的内容
   const content = `${tips}
 export default {

@@ -37,7 +37,7 @@
   "scripts": {
     "bootstrap": "yarn || npm i && cd ./packages/zanm-css/ && yarn || npm i && cd ../../",
     "dev": "node build/build-entry.js && webpack-serve --config build/webpack.dev.js",
-    "lint": "eslint **/*.{js,vue} *.{js,vue} --fix --ext .js,.vue && stylelint **/*.{vue,css,scss} --fix"
+    "lint": "eslint --fix --ext .js,.vue '**/*.{js,vue}' '*.{js,vue}' && stylelint '**/*.{vue,css,scss}' --fix"
   },
   "husky": {
     "hooks": {
