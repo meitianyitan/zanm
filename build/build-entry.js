@@ -26,6 +26,7 @@ function buildZanmEntry() {
 
   // 安装列表
   const installList = exportList.filter(name => !~uninstallComponents.indexOf(uppercamelize(name)));
+  // 将要写入的内容
   const content = `${tips}
 ${importList.join('\n')}
 
@@ -55,15 +56,19 @@ export default {
   version
 };
 `;
+
+  // 写入内容
   fs.writeFileSync(path.join(__dirname, '../packages/index.js'), content);
 }
 
+// 生成 Demo 的入口文件
 function buildDemoEntry() {
   const dir = path.join(__dirname, '../packages');
   const demos = fs.readdirSync(dir)
     .filter(name => fs.existsSync(path.join(dir, `${name}/demo/index.vue`)))
     .map(name => `'${name}': () => wrapper(import('../../packages/${name}/demo'), '${name}')`);
 
+  // 将要写入的内容
   const content = `${tips}
 import { wrapper } from './demo-common';
 
@@ -71,10 +76,11 @@ export default {
   ${demos.join(',\n  ')}
 };
 `;
+  // 写入内容
   fs.writeFileSync(path.join(dir, '../docs/src/demo-entry.js'), content);
 }
 
-// generate webpack entry file for markdown docs
+// 为 markdown 文档生成 webpack 入口文件
 function buildDocsEntry() {
   const output = join('docs/src/docs-entry.js');
   const getName = fullPath => fullPath.replace(/\/(en|zh)/, '.$1').split('/').pop().replace('.md', '');
@@ -88,16 +94,20 @@ function buildDocsEntry() {
       const name = getName(fullPath);
       return `'${name}': () => import('${path.relative(join('docs/src'), fullPath)}')`;
     });
-
+  // 将要写入的内容
   const content = `${tips}
 export default {
   ${docs.join(',\n  ')}
 };
 `;
+  // 写入内容
   fs.writeFileSync(output, content);
 }
 
+// 生成 zanm 入口文件
 buildZanmEntry();
+// 生成 Demo 的入口文件
 buildDemoEntry();
+// 为 markdown 文档生成 webpack 入口文件
 buildDocsEntry();
 
