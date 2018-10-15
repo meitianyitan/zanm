@@ -2,7 +2,7 @@
   <div class=""/>
 </template>
 
-<script type="text/ecmascript-6">
+<script>
 export default {
   name: '',
   data() {
@@ -12,7 +12,7 @@ export default {
 };
 </script>
 
-<style scoped lang="stylus">
+<style lang="postcss">
 h2 {
   font-size: 12px;
 }

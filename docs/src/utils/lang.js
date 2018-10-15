@@ -3,7 +3,7 @@ import zhCN from '../../../packages/locale/lang/zh-CN';
 import enUS from '../../../packages/locale/lang/en-US';
 
 const langMap = {
-  'en-US': {
+  'en_US': {
     title: 'Zanm - A Mobile UI for Vue.js 2.0',
     messages: enUS
   },
