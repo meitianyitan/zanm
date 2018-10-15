@@ -2,10 +2,10 @@ import Vue from 'vue';
 import VueRouter from 'vue-router';
 import App from './DocsApp';
 import routes from './router';
-import VantDoc, { progress } from 'vant-doc';
+import ZanmDoc, { progress } from 'zanm-doc';
 import { isMobile } from './utils';
 
-Vue.use(VueRouter).use(VantDoc);
+Vue.use(VueRouter).use(ZanmDoc);
 
 const router = new VueRouter({
   mode: 'hash',

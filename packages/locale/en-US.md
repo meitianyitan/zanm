@@ -37,4 +37,4 @@ Current supported languages:
 | English | en-US |
 | Traditional Chinese | zh-HK |
 
-View all language configs [Here](https://github.com/youzan/vant/tree/dev/packages/locale/lang).
+View all language configs [Here](https://github.com/meitianyitan/zanm/tree/master/packages/locale/lang).

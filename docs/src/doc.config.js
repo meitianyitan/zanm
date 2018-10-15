@@ -11,14 +11,14 @@ module.exports = {
         href: '#/'
       },
       nav: {
-        'Vue 组件': 'https://youzan.github.io/vant/',
-        '小程序组件': 'https://youzan.github.io/vant-weapp/',
+        'Vue 组件': 'https://github.com/meitianyitan/zanm/',
+        '小程序组件': 'https://github.com/meitianyitan/zanm-weapp/',
         lang: {
           text: 'En',
           from: 'zh-CN',
           to: 'en-US'
         },
-        github: 'https://github.com/youzan/vant'
+        github: 'https://github.com/meitianyitan/zanm'
       }
     },
     nav: [
@@ -40,7 +40,7 @@ module.exports = {
                 title: '更新日志'
               },
               {
-                path: '/vant-css',
+                path: '/zanm-css',
                 title: '内置样式'
               },
               {
@@ -322,7 +322,7 @@ module.exports = {
           from: 'en-US',
           to: 'zh-CN'
         },
-        github: 'https://github.com/youzan/vant'
+        github: 'https://github.com/meitianyitan/zanm'
       }
     },
     nav: [
@@ -344,7 +344,7 @@ module.exports = {
                 title: 'Changelog'
               },
               {
-                path: '/vant-css',
+                path: '/zanm-css',
                 title: 'Built-in style'
               },
               {

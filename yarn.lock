@@ -2166,7 +2166,7 @@ combined-stream@~1.0.6:
   dependencies:
     delayed-stream "~1.0.0"
 
-commander@*, commander@^2.11.0, commander@^2.12.2, commander@^2.13.0, commander@^2.14.1, commander@^2.16.0, commander@^2.17.0, commander@^2.17.1, commander@^2.18.0, commander@^2.8.1, commander@^2.9.0:
+commander@*, commander@^2.11.0, commander@^2.12.2, commander@^2.13.0, commander@^2.14.1, commander@^2.16.0, commander@^2.17.0, commander@^2.17.1, commander@^2.18.0, commander@^2.19.0, commander@^2.8.1, commander@^2.9.0:
   version "2.19.0"
   resolved "http://registry.npm.taobao.org/commander/download/commander-2.19.0.tgz#f6198aa84e5b83c46054b94ddedbfed5ee9ff12a"
 
@@ -9615,3 +9615,14 @@ yargs@^12.0.2:
 ylru@^1.2.0:
   version "1.2.1"
   resolved "http://registry.npm.taobao.org/ylru/download/ylru-1.2.1.tgz#f576b63341547989c1de7ba288760923b27fe84f"
+
+zanm-doc@^0.0.2:
+  version "0.0.2"
+  resolved "http://registry.npm.taobao.org/zanm-doc/download/zanm-doc-0.0.2.tgz#6122cc352897fec9a0cd5d28daf22cbf19ebf6ef"
+  dependencies:
+    cheerio "^1.0.0-rc.2"
+    commander "^2.19.0"
+    decamelize "^2.0.0"
+    fs-extra "^7.0.0"
+    nprogress "^0.2.0"
+    shelljs "^0.8.2"
