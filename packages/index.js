@@ -8,6 +8,7 @@ import Info from './info';
 import Lazyload from './lazyload';
 import Loading from './loading';
 import Locale from './locale';
+import NavBar from './nav-bar';
 
 const version = '0.0.1';
 const components = [
@@ -18,7 +19,8 @@ const components = [
   Icon,
   Info,
   Loading,
-  Locale
+  Locale,
+  NavBar
 ];
 
 const install = Vue => {
@@ -42,7 +44,8 @@ export {
   Info,
   Lazyload,
   Loading,
-  Locale
+  Locale,
+  NavBar
 };
 
 export default {

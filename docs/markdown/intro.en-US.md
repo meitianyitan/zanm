@@ -1,6 +1,6 @@
 <div class="zan-doc-intro">
   <img class="zan-doc-intro__youzan" src="//img.yzcdn.cn/public_files/2017/02/09/e84aa8cbbf7852688c86218c1f3bbf17.png">
-  <img class="zan-doc-intro__logo" src="//img.yzcdn.cn/public_files/2017/12/18/fd78cf6bb5d12e2a119d0576bedfd230.png">
+  <img class="zan-doc-intro__logo" src="http://static.sosout.com/images/zanm-logo.png" />
   <h2>Zanm</h2>
   <p>Lightweight Mobile UI Components built on Vue</p>
 </div>
@@ -20,7 +20,7 @@ See in [Quickstart](#/en-US/quickstart).
 
 ### Contribution
 
-Please make sure to read the [Contributing Guide](https://github.com/youzan/vant/blob/dev/.github/CONTRIBUTING.md) before making a pull request.
+Please make sure to read the [Contributing Guide](https://github.com/meitianyitan/zanm/blob/master/.github/CONTRIBUTING.md) before making a pull request.
 
 ### Browser Support
 
@@ -28,12 +28,8 @@ Modern browsers and Android 4.0+, iOS 6+.
 
 ### Links
 
-* [Feedback](https://github.com/youzan/vant/issues)
+* [Feedback](https://github.com/meitianyitan/zanm/issues)
 * [Changelog](#/en-US/changelog)
-* [Weapp UI](https://github.com/youzan/zanui-weapp)
-* [React UI](https://www.youzanyun.com/zanui/zent)
-* [Vant Demo](https://github.com/youzan/vant-demo)
-* [vue-cli-template-vant](https://github.com/youzan/vue-cli-template-vant)
 
 ### LICENSE
 

@@ -3,5 +3,6 @@ import { wrapper } from './demo-common';
 
 export default {
   'button': () => wrapper(import('../../packages/button/demo'), 'button'),
-  'lazyload': () => wrapper(import('../../packages/lazyload/demo'), 'lazyload')
+  'lazyload': () => wrapper(import('../../packages/lazyload/demo'), 'lazyload'),
+  'nav-bar': () => wrapper(import('../../packages/nav-bar/demo'), 'nav-bar')
 };

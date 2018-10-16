@@ -1,13 +1,12 @@
-<div class="van-doc-intro">
-  <img class="van-doc-intro__youzan" src="//img.yzcdn.cn/public_files/2017/02/09/e84aa8cbbf7852688c86218c1f3bbf17.png">
-  <img class="van-doc-intro__logo" src="//img.yzcdn.cn/public_files/2017/12/18/fd78cf6bb5d12e2a119d0576bedfd230.png">
-  <h2>Vant</h2>
-  <p>轻量、可靠的移动端 Vue 组件库</p>
+<div class="zan-doc-intro">
+  <img class="zan-doc-intro__youzan" src="//img.yzcdn.cn/public_files/2017/02/09/e84aa8cbbf7852688c86218c1f3bbf17.png">
+  <img class="zan-doc-intro__logo" src="http://static.sosout.com/images/zanm-logo.png" />
+  <h2>Zanm</h2>
+  <p>一套基于 Vue.js 的移动端组件库</p>
 </div>
  
 ### 特性
 
-* 50+ 个经过有赞线上业务检验的组件
 * 单元测试覆盖率超过 90%
 * 完善的文档和示例
 * 支持 [babel-plugin-import](https://github.com/ant-design/babel-plugin-import)
@@ -22,7 +21,7 @@
 
 修改代码请阅读我们的 [开发指南](#/zh-CN/contribution)
 
-使用过程中发现任何问题都可以提 [Issue](https://github.com/youzan/vant/issues) 给我们，当然，我们也非常欢迎你给我们发 [PR](https://github.com/youzan/vant/pulls)
+使用过程中发现任何问题都可以提 [Issue](https://github.com/meitianyitan/zanm/issues) 给我们，当然，我们也非常欢迎你给我们发 [PR](https://github.com/meitianyitan/zanm/pulls)
 
 ### 浏览器支持
 
@@ -30,13 +29,9 @@
 
 ### 链接
 
-* [意见反馈](https://github.com/youzan/vant/issues)
+* [意见反馈](https://github.com/meitianyitan/zanm/issues)
 * [加入我们](https://job.youzan.com)
 * [更新日志](#/zh-CN/changelog)
-* [React 组件库](https://www.youzanyun.com/zanui/zent)
-* [微信小程序组件库](https://github.com/youzan/zanui-weapp)
-* [vant-demo](https://github.com/youzan/vant-demo)
-* [vue-cli-template-vant](https://github.com/youzan/vue-cli-template-vant)
 
 ### 开源协议
 
