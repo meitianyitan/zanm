@@ -3,6 +3,8 @@ import Actionsheet from './actionsheet';
 import Button from './button';
 import Cell from './cell';
 import CellGroup from './cell-group';
+import Collapse from './collapse';
+import CollapseItem from './collapse-item';
 import Icon from './icon';
 import Info from './info';
 import Lazyload from './lazyload';
@@ -16,6 +18,8 @@ const components = [
   Button,
   Cell,
   CellGroup,
+  Collapse,
+  CollapseItem,
   Icon,
   Info,
   Loading,
@@ -40,6 +44,8 @@ export {
   Button,
   Cell,
   CellGroup,
+  Collapse,
+  CollapseItem,
   Icon,
   Info,
   Lazyload,
