@@ -1,3 +1,7 @@
+import Vue from 'vue';
+
+const isServer = Vue.prototype.$isServer;
+
 function isDef(value) {
   return value !== undefined && value !== null;
 }
@@ -27,5 +31,6 @@ export {
   isDef,
   isObj,
   get,
+  isServer,
   camelize
 };

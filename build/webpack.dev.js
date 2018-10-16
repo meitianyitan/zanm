@@ -1,6 +1,8 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const ProgressBarPlugin = require('progress-bar-webpack-plugin');
+// 在 Webpack 中强制模块路径区分大小写
+const CaseSensitivePathsPlugin = require('case-sensitive-paths-webpack-plugin');
 const { VueLoaderPlugin } = require('vue-loader');
 
 module.exports = {
@@ -90,6 +92,7 @@ module.exports = {
       template: 'docs/src/index.tpl',
       filename: 'mobile.html',
       inject: true
-    })
+    }),
+    new CaseSensitivePathsPlugin()
   ]
 };

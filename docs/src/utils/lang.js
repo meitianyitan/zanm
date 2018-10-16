@@ -3,11 +3,11 @@ import zhCN from '../../../packages/locale/lang/zh-CN';
 import enUS from '../../../packages/locale/lang/en-US';
 
 const langMap = {
-  'en_US': {
+  'en-US': {
     title: 'Zanm - A Mobile UI for Vue.js 2.0',
     messages: enUS
   },
-  'zh_CN': {
+  'zh-CN': {
     title: 'Zanm - 一套基于 Vue.js 的移动端组件库',
     messages: zhCN
   }
@@ -27,7 +27,7 @@ function getDefaultLang() {
   }
 
   const userLang = localStorage.getItem('ZANM_LANGUAGE') || navigator.language || 'en_US';
-  return ~userLang.indexOf('zh-') ? 'zh_CN' : 'en_US';
+  return ~userLang.indexOf('zh-') ? 'zh-CN' : 'en-US';
 }
 
 export function setLang(lang) {

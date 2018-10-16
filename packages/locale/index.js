@@ -4,7 +4,6 @@ import defaultMessages from './lang/zh-CN';
 
 const proto = Vue.prototype;
 const defaultLang = 'zh-CN';
-
 const locale = {
   install() {
     if (proto.$zanmLang) {

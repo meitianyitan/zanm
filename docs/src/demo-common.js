@@ -2,7 +2,7 @@
  * Demo Common Mixin && i18n
  */
 
-import Vue from 'Vue';
+import Vue from 'vue';
 import i18n from '../../packages/mixins/i18n';
 import Zanm, { Lazyload } from '../../packages';
 import ZanmDoc, { DemoBlock, DemoSection } from 'zanm-doc';
