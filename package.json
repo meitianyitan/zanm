@@ -1,6 +1,6 @@
 {
   "name": "zanm",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A Mobile UI for Vue.js 2.0",
   "keywords": [
     "vue",
@@ -50,7 +50,7 @@
     "test": "jest",
     "test:watch": "jest --watch",
     "test:coverage": "node build/test-coverage.js",
-    "release": "build/release.sh"
+    "release": "sh build/release.sh"
   },
   "husky": {
     "hooks": {

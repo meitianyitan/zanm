@@ -12,7 +12,7 @@ import Loading from './loading';
 import Locale from './locale';
 import NavBar from './nav-bar';
 
-const version = '0.0.1';
+const version = '0.0.2';
 const components = [
   Actionsheet,
   Button,
