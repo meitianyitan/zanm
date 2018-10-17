@@ -4,11 +4,11 @@ import enUS from '../../../packages/locale/lang/en-US';
 
 const langMap = {
   'en-US': {
-    title: 'Zanm - A Mobile UI for Vue.js 2.0',
+    title: 'zanm - A Mobile UI for Vue.js 2.0',
     messages: enUS
   },
   'zh-CN': {
-    title: 'Zanm - 一套基于 Vue.js 的移动端组件库',
+    title: 'zanm - 一套基于 Vue.js 的移动端组件库',
     messages: zhCN
   }
 };

@@ -11,7 +11,7 @@ module.exports = {
   snapshotSerializers: ['<rootDir>/node_modules/jest-serializer-vue'],
   collectCoverageFrom: [
     'packages/**/*.{js,vue}',
-    '!**/vant-css/**',
+    '!**/zanm-css/**',
     '!**/demo/**',
     '!**/locale/lang/**',
     '!**/waterfall/**',

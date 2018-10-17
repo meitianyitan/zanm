@@ -1,7 +1,6 @@
 <div class="zan-doc-intro">
-  <img class="zan-doc-intro__youzan" src="//img.yzcdn.cn/public_files/2017/02/09/e84aa8cbbf7852688c86218c1f3bbf17.png">
-  <img class="zan-doc-intro__logo" src="http://static.sosout.com/images/zanm-logo.png" />
-  <h2>Zanm</h2>
+  <img class="zan-doc-intro__logo" src="http://static.sosout.com/images/zanm-logo.svg" />
+  <h2>zanm</h2>
   <p>一套基于 Vue.js 的移动端组件库</p>
 </div>
  

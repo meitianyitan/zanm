@@ -4,6 +4,8 @@ import { wrapper } from './demo-common';
 export default {
   'button': () => wrapper(import('../../packages/button/demo'), 'button'),
   'collapse': () => wrapper(import('../../packages/collapse/demo'), 'collapse'),
+  'icon': () => wrapper(import('../../packages/icon/demo'), 'icon'),
   'lazyload': () => wrapper(import('../../packages/lazyload/demo'), 'lazyload'),
-  'nav-bar': () => wrapper(import('../../packages/nav-bar/demo'), 'nav-bar')
+  'nav-bar': () => wrapper(import('../../packages/nav-bar/demo'), 'nav-bar'),
+  'zanm-css': () => wrapper(import('../../packages/zanm-css/demo'), 'zanm-css')
 };

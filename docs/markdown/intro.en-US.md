@@ -1,8 +1,7 @@
 <div class="zan-doc-intro">
-  <img class="zan-doc-intro__youzan" src="//img.yzcdn.cn/public_files/2017/02/09/e84aa8cbbf7852688c86218c1f3bbf17.png">
-  <img class="zan-doc-intro__logo" src="http://static.sosout.com/images/zanm-logo.png" />
-  <h2>Zanm</h2>
-  <p>Lightweight Mobile UI Components built on Vue</p>
+  <img class="zan-doc-intro__logo" src="http://static.sosout.com/images/zanm-logo.svg" alt="zan-doc-intro__logo" />
+  <h2>zanm</h2>
+  <p>A Mobile UI for Vue.js 2.0</p>
 </div>
  
 ### Features

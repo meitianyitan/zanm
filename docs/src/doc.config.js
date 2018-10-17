@@ -5,16 +5,16 @@ module.exports = {
   'zh-CN': {
     header: {
       logo: {
-        image: 'https://img.yzcdn.cn/public_files/2017/12/18/fd78cf6bb5d12e2a119d0576bedfd230.png',
-        title: 'Zanm',
+        image: 'http://static.sosout.com/images/zanm-logo.svg',
+        title: 'zanm',
         version,
         href: '#/'
       },
       nav: {
-        'Vue 组件': 'https://github.com/meitianyitan/zanm/',
-        '小程序组件': 'https://github.com/meitianyitan/zanm-weapp/',
+        // 'Vue 组件': 'https://github.com/meitianyitan/zanm/',
+        // '小程序组件': 'https://github.com/meitianyitan/zanm-weapp/',
         lang: {
-          text: 'En',
+          text: 'English',
           from: 'zh-CN',
           to: 'en-US'
         },
@@ -311,8 +311,8 @@ module.exports = {
   'en-US': {
     header: {
       logo: {
-        image: 'https://img.yzcdn.cn/public_files/2017/12/18/fd78cf6bb5d12e2a119d0576bedfd230.png',
-        title: 'Zanm',
+        image: 'http://static.sosout.com/images/zanm-logo.svg',
+        title: 'zanm',
         version,
         href: '#/'
       },

@@ -1,12 +1,12 @@
 <template>
   <div class="side-nav">
     <h1 class="zanui-title">
-      <img alt="" src="https://img.yzcdn.cn/public_files/2017/12/18/fd78cf6bb5d12e2a119d0576bedfd230.png" >
-      <span>Zanm</span>
+      <img class="zan-doc-intro__logo" src="http://static.sosout.com/images/zanm-logo.svg" alt="zan-doc-intro__logo" >
+      <span>zanm</span>
     </h1>
     <div class="mobile-switch-lang">
       <span :class="{ active: $zanmLang === 'en-US' }" @click="switchLang('en-US')">EN</span>
-      <span :class="{ active: $zanmLang === 'zh-CN' }" @click="switchLang('zh_CN')">中文</span>
+      <span :class="{ active: $zanmLang === 'zh-CN' }" @click="switchLang('zh-CN')">中文</span>
     </div>
     <h2 class="zanui-desc">{{ description }}</h2>
     <template v-for="item in navList" v-if="item.showInMobile">
