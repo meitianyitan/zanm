@@ -1,0 +1,5 @@
+@import '../mixins/ellipsis.css';
+
+.zan-ellipsis {
+  @include ellipsis;
+}

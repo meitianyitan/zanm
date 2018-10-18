@@ -1,3 +1,9 @@
-.zanmbase {
-  font-size: 100px;
-}
+/**
+ * Entry of all component's style
+ */
+
+/* base */
+@import './base.css';
+
+/* action components */
+@import './actionsheet.css';

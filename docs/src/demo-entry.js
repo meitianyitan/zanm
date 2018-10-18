@@ -2,6 +2,7 @@
 import { wrapper } from './demo-common';
 
 export default {
+  'actionsheet': () => wrapper(import('../../packages/actionsheet/demo'), 'actionsheet'),
   'button': () => wrapper(import('../../packages/button/demo'), 'button'),
   'collapse': () => wrapper(import('../../packages/collapse/demo'), 'collapse'),
   'icon': () => wrapper(import('../../packages/icon/demo'), 'icon'),

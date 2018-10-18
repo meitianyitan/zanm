@@ -7,7 +7,8 @@
       </div>
       <ul v-else class="zan-hairline--bottom">
         <li
-          v-for="item in actions"
+          v-for="(item, index) in actions"
+          :key="index"
           :class="[b('item', { disabled: item.disabled || item.loading }), item.className, 'zan-hairline--top']"
           @click.stop="onSelect(item)"
         >
