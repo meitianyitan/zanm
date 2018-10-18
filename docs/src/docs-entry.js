@@ -1,7 +1,15 @@
 // 此文件是通过 build/build-entry.js 自动生成的
 export default {
+  'changelog.en-US': () => import('../markdown/changelog.en-US.md'),
+  'changelog.zh-CN': () => import('../markdown/changelog.zh-CN.md'),
+  'contribution.zh-CN': () => import('../markdown/contribution.zh-CN.md'),
   'intro.en-US': () => import('../markdown/intro.en-US.md'),
   'intro.zh-CN': () => import('../markdown/intro.zh-CN.md'),
+  'quickstart.en-US': () => import('../markdown/quickstart.en-US.md'),
+  'quickstart.zh-CN': () => import('../markdown/quickstart.zh-CN.md'),
+  'style-guide.zh-CN': () => import('../markdown/style-guide.zh-CN.md'),
+  'theme.en-US': () => import('../markdown/theme.en-US.md'),
+  'theme.zh-CN': () => import('../markdown/theme.zh-CN.md'),
   'button.en-US': () => import('../../packages/button/en-US.md'),
   'button.zh-CN': () => import('../../packages/button/zh-CN.md'),
   'collapse.en-US': () => import('../../packages/collapse/en-US.md'),

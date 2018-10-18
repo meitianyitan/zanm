@@ -3,3 +3,4 @@ es
 lib
 dist
 packages/icon/config/template.css
+packages/zanm-css/src/common/iconfont/*

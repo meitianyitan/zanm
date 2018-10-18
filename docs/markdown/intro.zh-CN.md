@@ -29,7 +29,7 @@
 ### 链接
 
 * [意见反馈](https://github.com/meitianyitan/zanm/issues)
-* [加入我们](https://job.youzan.com)
+* [加入我们](https://github.com/meitianyitan)
 * [更新日志](#/zh-CN/changelog)
 
 ### 开源协议
