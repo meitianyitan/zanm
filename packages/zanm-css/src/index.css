@@ -4,6 +4,8 @@
 
 /* base */
 @import './base.css';
+@import './nav-bar.css';
+@import './collapse.css';
 
 /* action components */
 @import './actionsheet.css';
