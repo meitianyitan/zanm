@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`callback events 1`] = `
+<div class="zan-actionsheet" name="zan-slide-bottom">
+  <ul class="zan-hairline--bottom">
+    <li class="zan-actionsheet__item zan-hairline--top"><span class="zan-actionsheet__name">Option</span>
+      <!---->
+    </li>
+    <li class="zan-actionsheet__item zan-actionsheet__item--disabled zan-hairline--top"><span class="zan-actionsheet__name">Option</span>
+      <!---->
+    </li>
+  </ul>
+  <div class="zan-actionsheet__cancel zan-hairline--top">Cancel</div>
+</div>
+`;
