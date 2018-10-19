@@ -6,8 +6,8 @@
     <img src="https://img.shields.io/npm/dt/zanm.svg" alt="downloads" />
     <img src="https://img.badgesize.io/https://unpkg.com/zanm/lib/zanm.min.js?compression=gzip&style=flat-square&label=JS%20gzip%20size" alt="JS Gzip Size" />
     <img src="https://img.badgesize.io/https://unpkg.com/zanm/lib/zanm-css/index.css?compression=gzip&style=flat-square&label=CSS%20gzip%20size" alt="CSS Gzip Size" />
-    <img src="https://isitmaintained.com/badge/open/yitan/zanm.svg" alt="issue" />
-    <img src="https://img.shields.io/codecov/c/github/yitan/zanm/dev.svg" alt="Coverage Status" />
+    <img src="http://isitmaintained.com/badge/open/meitianyitan/zanm.svg" alt="issue" />
+    <img src="https://img.shields.io/codecov/c/github/meitianyitan/zanm/dev.svg" alt="Coverage Status" />
 </p>
 
 <p align="center">

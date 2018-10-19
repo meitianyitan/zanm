@@ -11,7 +11,7 @@ module.exports = {
         href: '#/'
       },
       nav: {
-        // 'Vue 组件': 'https://github.com/meitianyitan/zanm/',
+        '个人博客': 'http://www.sosout.com/',
         // '小程序组件': 'https://github.com/meitianyitan/zanm-weapp/',
         lang: {
           text: 'English',
