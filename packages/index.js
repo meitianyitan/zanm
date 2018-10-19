@@ -3,6 +3,7 @@ import Actionsheet from './actionsheet';
 import Button from './button';
 import Cell from './cell';
 import CellGroup from './cell-group';
+import Col from './col';
 import Collapse from './collapse';
 import CollapseItem from './collapse-item';
 import Icon from './icon';
@@ -11,6 +12,10 @@ import Lazyload from './lazyload';
 import Loading from './loading';
 import Locale from './locale';
 import NavBar from './nav-bar';
+import Row from './row';
+import SwipeCell from './swipe-cell';
+import Switch from './switch';
+import SwitchCell from './switch-cell';
 
 const version = '0.0.3';
 const components = [
@@ -18,13 +23,18 @@ const components = [
   Button,
   Cell,
   CellGroup,
+  Col,
   Collapse,
   CollapseItem,
   Icon,
   Info,
   Loading,
   Locale,
-  NavBar
+  NavBar,
+  Row,
+  SwipeCell,
+  Switch,
+  SwitchCell
 ];
 
 const install = Vue => {
@@ -44,6 +54,7 @@ export {
   Button,
   Cell,
   CellGroup,
+  Col,
   Collapse,
   CollapseItem,
   Icon,
@@ -51,7 +62,11 @@ export {
   Lazyload,
   Loading,
   Locale,
-  NavBar
+  NavBar,
+  Row,
+  SwipeCell,
+  Switch,
+  SwitchCell
 };
 
 export default {

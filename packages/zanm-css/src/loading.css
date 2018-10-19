@@ -32,7 +32,7 @@
 
     &--gradient-circle {
       background-size: contain;
-      background-image: url('https://img.yzcdn.cn/vant/gradient-circle-black.png');
+      background-image: url('http://static.sosout.com/zanm/gradient-circle-black.png');
     }
 
     &--spinner {
@@ -81,7 +81,7 @@
     }
 
     .zan-loading__spinner--gradient-circle {
-      background-image: url('https://img.yzcdn.cn/vant/gradient-circle-white.png');
+      background-image: url('http://static.sosout.com/zanm/gradient-circle-white.png');
     }
   }
 }

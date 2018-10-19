@@ -2,7 +2,7 @@
 
 <p align="center">
     <img src="https://img.shields.io/npm/v/zanm.svg?style=flat" alt="npm version" />
-    <img src="https://travis-ci.org/yitan/zanm.svg?branch=master" alt="Build Status" />
+    <img src="https://www.travis-ci.org/meitianyitan/zanm.svg?branch=dev" alt="Build Status" />
     <img src="https://img.shields.io/npm/dt/zanm.svg" alt="downloads" />
     <img src="https://img.badgesize.io/https://unpkg.com/zanm/lib/zanm.min.js?compression=gzip&style=flat-square&label=JS%20gzip%20size" alt="JS Gzip Size" />
     <img src="https://img.badgesize.io/https://unpkg.com/zanm/lib/zanm-css/index.css?compression=gzip&style=flat-square&label=CSS%20gzip%20size" alt="CSS Gzip Size" />

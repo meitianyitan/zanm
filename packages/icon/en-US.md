@@ -17,7 +17,7 @@ View all usable icons on the right.
 ```
 
 #### Use local font file
-Icon uses font file in `yzcdn.cn` by default，if you want to use the local font file，please import the following css file.
+Icon uses font file in `sosout.com` by default，if you want to use the local font file，please import the following css file.
 
 ```js
 import 'zanm/lib/zanm-css/icon-local.css';

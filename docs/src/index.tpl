@@ -8,7 +8,7 @@
   <meta http-Equiv="Expires" Content="0" />
   <link rel="shortcut icon" href="http://static.sosout.com/images/zanm-logo.svg">
   <title>zanm - 一套基于 Vue.js 的移动端组件库</title>
-  <script>window.Promise || document.write('<script src="//img.yzcdn.cn/huiyi/build/h5/js/pinkie.min.js"><\/script>');</script>
+  <script>window.Promise || document.write('<script src="http://static.sosout.com/js/pinkie.min.js"><\/script>');</script>
 </head>
 <body ontouchstart>
 

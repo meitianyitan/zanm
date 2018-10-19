@@ -26,7 +26,7 @@ export default {
     },
 
     demoLink() {
-      return `https://github.com/youzan/vant/blob/dev/packages/${this.$route.meta.path}/demo/index.vue`;
+      return `https://github.com/meitianyitan/zanm/tree/dev/packages/${this.$route.meta.path}/demo/index.vue`;
     }
   },
 

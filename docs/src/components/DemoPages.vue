@@ -23,9 +23,7 @@ Locale.add({
       title: '示例',
       source: '源代码',
       description: '下面是一些使用 Zanm 搭建的示例页面，点击图片切换至对应示例。',
-      goodsDetail: '商品详情',
-      userCenter: '会员中心',
-      shoppingCart: '购物车'
+      myblog: '我的博客'
     }
   },
   'en-US': {
@@ -33,9 +31,7 @@ Locale.add({
       title: 'Demo Pages',
       source: 'Source code',
       description: 'Here are some of the demo pages built using Zanm, click on the picture to switch to the corresponding demo.',
-      goodsDetail: 'Goods Detail',
-      userCenter: 'User Center',
-      shoppingCart: 'Shopping Cart'
+      myblog: 'My Blog'
     }
   }
 });
@@ -50,24 +46,14 @@ export default {
   },
 
   computed: {
-    // demos() {
-    //   return [{
-    //     title: this.$t('goodsDetail'),
-    //     preview: 'https://img.yzcdn.cn/public_files/2017/10/24/7070a8d1d6504b864c605114d32f2aae.png',
-    //     url: 'https://youzan.github.io/vant-demo/#/goods',
-    //     source: 'https://github.com/youzan/vant-demo/tree/master/src/view/goods/index.vue'
-    //   }, {
-    //     title: this.$t('userCenter'),
-    //     preview: 'https://img.yzcdn.cn/public_files/2017/10/23/e1d70757e3ab88d39a360b704be8f43f.png',
-    //     url: 'https://youzan.github.io/vant-demo/#/user',
-    //     source: 'https://github.com/youzan/vant-demo/tree/master/src/view/user/index.vue'
-    //   }, {
-    //     title: this.$t('shoppingCart'),
-    //     preview: 'https://img.yzcdn.cn/public_files/2017/10/24/06b8b5ed3692314d434db7f6854dcdbe.png',
-    //     url: 'https://youzan.github.io/vant-demo/#/cart',
-    //     source: 'https://github.com/youzan/vant-demo/tree/master/src/view/cart/index.vue'
-    //   }];
-    // }
+    demos() {
+      return [{
+        title: this.$t('myblog'),
+        preview: 'http://static.sosout.com/images/blog-shot.png',
+        url: 'http://www.sosout.com/',
+        source: 'https://github.com/meitianyitan/zanm'
+      }];
+    }
   },
 
   beforeMount() {

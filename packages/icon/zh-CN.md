@@ -19,7 +19,7 @@ Vue.use(Icon);
 
 #### 使用本地字体文件
 
-Icon 组件默认引用 `yzcdn.cn` 域名下的字体文件，如果想要使用本地字体文件，请引入下面的 css 文件
+Icon 组件默认引用 `sosout.com` 域名下的字体文件，如果想要使用本地字体文件，请引入下面的 css 文件
 
 ```js
 import 'zanm/lib/zanm-css/icon-local.css';

@@ -10,7 +10,7 @@
 </template>
 
 <script>
-// import icons from '../../../packages/icon/config';
+import icons from '../../../packages/icon/config';
 
 export default {
   i18n: {
@@ -23,7 +23,7 @@ export default {
   },
 
   data() {
-    this.icons = [].map(icon => icon.css);
+    this.icons = icons.glyphs.map(icon => icon.css);
     return {};
   }
 };
