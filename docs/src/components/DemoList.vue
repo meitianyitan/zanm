@@ -2,7 +2,7 @@
   <div class="side-nav">
     <h1 class="zanui-title">
       <img class="zan-doc-intro__logo" src="http://static.sosout.com/images/zanm-logo.svg" alt="zan-doc-intro__logo" >
-      <span>zanm</span>
+      <span>Zanm</span>
     </h1>
     <div class="mobile-switch-lang">
       <span :class="{ active: $zanmLang === 'en-US' }" @click="switchLang('en-US')">EN</span>

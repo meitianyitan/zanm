@@ -1,12 +1,12 @@
 <div class="zan-doc-intro">
   <img class="zan-doc-intro__logo" src="http://static.sosout.com/images/zanm-logo.svg" />
-  <h2>zanm</h2>
+  <h2>Zanm</h2>
   <p>一套基于 Vue.js 的移动端组件库</p>
 </div>
  
 ### 特性
 
-* 单元测试覆盖率超过 90%
+<!-- * 单元测试覆盖率超过 90% -->
 * 完善的文档和示例
 * 支持 [babel-plugin-import](https://github.com/ant-design/babel-plugin-import)
 * 支持 TypeScript

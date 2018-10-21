@@ -38,11 +38,14 @@ const components = [
 ];
 
 const install = Vue => {
+  if (install.installed) return;
+
   components.forEach(Component => {
     Vue.use(Component);
   });
 };
 
+// auto install
 if (typeof window !== 'undefined' && window.Vue) {
   install(window.Vue);
 }

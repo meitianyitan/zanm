@@ -23,7 +23,6 @@ function buildZanmEntry() {
     importList.push(`import ${uppercamelize(name)} from './${name}';`);
     exportList.push(`${uppercamelize(name)}`);
   });
-
   // 安装列表
   const installList = exportList.filter(name => !~uninstallComponents.indexOf(uppercamelize(name)));
   // 将要写入的内容
@@ -36,11 +35,14 @@ const components = [
 ];
 
 const install = Vue => {
+  if (install.installed) return;
+  
   components.forEach(Component => {
     Vue.use(Component);
   });
 };
 
+// auto install
 if (typeof window !== 'undefined' && window.Vue) {
   install(window.Vue);
 }

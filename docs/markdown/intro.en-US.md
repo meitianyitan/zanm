@@ -1,6 +1,6 @@
 <div class="zan-doc-intro">
   <img class="zan-doc-intro__logo" src="http://static.sosout.com/images/zanm-logo.svg" alt="zan-doc-intro__logo" />
-  <h2>zanm</h2>
+  <h2>Zanm</h2>
   <p>A Mobile UI for Vue.js 2.0</p>
 </div>
  

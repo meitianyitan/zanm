@@ -1,16 +1,16 @@
 <template>
   <demo-section>
     <demo-block :title="$t('basicUsage')">
-      <img v-for="img in imageList" v-lazy="img" >
+      <img v-for="(img, index) in imageList" v-lazy="img" :key="index" >
     </demo-block>
 
     <demo-block :title="$t('title2')">
-      <div v-for="img in backgroundImageList" v-lazy:background-image="img" />
+      <div v-for="(img, index) in backgroundImageList" v-lazy:background-image="img" :key="index" />
     </demo-block>
 
     <demo-block :title="$t('title3')">
       <lazy-component>
-        <img v-for="img in componentImageList" v-lazy="img" >
+        <img v-for="(img, index) in componentImageList" v-lazy="img" :key="index" >
       </lazy-component>
     </demo-block>
   </demo-section>

@@ -37,7 +37,6 @@
   "scripts": {
     "bootstrap": "yarn || npm i && cd ./packages/zanm-css/ && yarn || npm i && cd ../../",
     "dev": "node build/build-entry.js && webpack-serve --config build/webpack.dev.js",
-    "lint": "eslint --fix --ext .js,.vue \"**/*.{js,vue}\" \"*.{js,vue}\" && stylelint \"*.{vue,css,scss}\" --fix",
     "build:entry": "node build/build-entry.js",
     "build:components": "node build/build-components.js --color",
     "build:zanm-css": "gulp build --gulpfile packages/zanm-css/gulpfile.js --color --silent",
@@ -50,6 +49,7 @@
     "test": "jest",
     "test:watch": "jest --watch",
     "test:coverage": "node build/test-coverage.js",
+    "lint": "eslint --fix --ext .js,.vue \"**/*.{js,vue}\" \"*.{js,vue}\" && stylelint \"*.{vue,css,scss}\" --fix",
     "release": "sh build/release.sh"
   },
   "husky": {

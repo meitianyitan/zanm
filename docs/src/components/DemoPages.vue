@@ -5,7 +5,8 @@
     <div class="zan-doc-demo-pages__gallery">
       <div
         :class="['zan-doc-demo-pages__item', { 'zan-doc-demo-pages__item--active': index === currentDemo }]"
-        v-for="(demo, index) in demos">
+        v-for="(demo, index) in demos"
+        :key="index">
         <h4>{{ demo.title }}</h4>
         <a :href="demo.source" target="_blank">{{ $t('source') }}</a>
         <img :src="demo.preview" alt="demo.preview" @click="onChangeDemo(demo, index)" >

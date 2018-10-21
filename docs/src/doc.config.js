@@ -6,7 +6,7 @@ module.exports = {
     header: {
       logo: {
         image: 'http://static.sosout.com/images/zanm-logo.svg',
-        title: 'zanm',
+        title: 'Zanm',
         version,
         href: '#/'
       },
@@ -263,47 +263,47 @@ module.exports = {
               }
             ]
           },
-          {
-            groupName: '业务组件',
-            list: [
-              {
-                path: '/address-edit',
-                title: 'AddressEdit 地址编辑'
-              },
-              {
-                path: '/address-list',
-                title: 'AddressList 地址列表'
-              },
-              {
-                path: '/area',
-                title: 'Area 省市区选择'
-              },
-              {
-                path: '/card',
-                title: 'Card 商品卡片'
-              },
-              {
-                path: '/contact-card',
-                title: 'Contact 联系人'
-              },
-              {
-                path: '/coupon-list',
-                title: 'Coupon 优惠券'
-              },
-              {
-                path: '/goods-action',
-                title: 'GoodsAction 商品页行动点'
-              },
-              {
-                path: '/submit-bar',
-                title: 'SubmitBar 提交订单栏'
-              },
-              {
-                path: '/sku',
-                title: 'Sku 商品规格弹层'
-              }
-            ]
-          }
+          // {
+          //   groupName: '业务组件',
+          //   list: [
+          //     {
+          //       path: '/address-edit',
+          //       title: 'AddressEdit 地址编辑'
+          //     },
+          //     {
+          //       path: '/address-list',
+          //       title: 'AddressList 地址列表'
+          //     },
+          //     {
+          //       path: '/area',
+          //       title: 'Area 省市区选择'
+          //     },
+          //     {
+          //       path: '/card',
+          //       title: 'Card 商品卡片'
+          //     },
+          //     {
+          //       path: '/contact-card',
+          //       title: 'Contact 联系人'
+          //     },
+          //     {
+          //       path: '/coupon-list',
+          //       title: 'Coupon 优惠券'
+          //     },
+          //     {
+          //       path: '/goods-action',
+          //       title: 'GoodsAction 商品页行动点'
+          //     },
+          //     {
+          //       path: '/submit-bar',
+          //       title: 'SubmitBar 提交订单栏'
+          //     },
+          //     {
+          //       path: '/sku',
+          //       title: 'Sku 商品规格弹层'
+          //     }
+          //   ]
+          // }
         ]
       }
     ]
@@ -312,7 +312,7 @@ module.exports = {
     header: {
       logo: {
         image: 'http://static.sosout.com/images/zanm-logo.svg',
-        title: 'zanm',
+        title: 'Zanm',
         version,
         href: '#/'
       },
@@ -559,47 +559,47 @@ module.exports = {
               }
             ]
           },
-          {
-            groupName: 'Business Components',
-            list: [
-              {
-                path: '/address-edit',
-                title: 'AddressEdit'
-              },
-              {
-                path: '/address-list',
-                title: 'AddressList'
-              },
-              {
-                path: '/area',
-                title: 'Area'
-              },
-              {
-                path: '/card',
-                title: 'Card'
-              },
-              {
-                path: '/contact-card',
-                title: 'Contact'
-              },
-              {
-                path: '/coupon-list',
-                title: 'Coupon'
-              },
-              {
-                path: '/goods-action',
-                title: 'GoodsAction'
-              },
-              {
-                path: '/submit-bar',
-                title: 'SubmitBar'
-              },
-              {
-                path: '/sku',
-                title: 'Sku'
-              }
-            ]
-          }
+          // {
+          //   groupName: 'Business Components',
+          //   list: [
+          //     {
+          //       path: '/address-edit',
+          //       title: 'AddressEdit'
+          //     },
+          //     {
+          //       path: '/address-list',
+          //       title: 'AddressList'
+          //     },
+          //     {
+          //       path: '/area',
+          //       title: 'Area'
+          //     },
+          //     {
+          //       path: '/card',
+          //       title: 'Card'
+          //     },
+          //     {
+          //       path: '/contact-card',
+          //       title: 'Contact'
+          //     },
+          //     {
+          //       path: '/coupon-list',
+          //       title: 'Coupon'
+          //     },
+          //     {
+          //       path: '/goods-action',
+          //       title: 'GoodsAction'
+          //     },
+          //     {
+          //       path: '/submit-bar',
+          //       title: 'SubmitBar'
+          //     },
+          //     {
+          //       path: '/sku',
+          //       title: 'Sku'
+          //     }
+          //   ]
+          // }
         ]
       }
     ]
