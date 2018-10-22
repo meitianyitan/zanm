@@ -17,7 +17,7 @@ import SwipeCell from './swipe-cell';
 import Switch from './switch';
 import SwitchCell from './switch-cell';
 
-const version = '0.0.4';
+const version = '0.0.7';
 const components = [
   Actionsheet,
   Button,
@@ -39,7 +39,6 @@ const components = [
 
 const install = Vue => {
   if (install.installed) return;
-
   components.forEach(Component => {
     Vue.use(Component);
   });
