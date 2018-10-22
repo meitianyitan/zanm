@@ -13,9 +13,9 @@ Vue.use(SwitchCell);
 #### Basic Usage
 
 ```html
-<zan-cell-group>
-  <zan-switch-cell v-model="checked" title="Title" />
-</zan-cell-group>
+<zvm-cell-group>
+  <zvm-switch-cell v-model="checked" title="Title" />
+</zvm-cell-group>
 ```
 
 ```javascript
@@ -33,9 +33,9 @@ export default {
 use `disabled` property to disable the component
 
 ```html
-<zan-cell-group>
-  <zan-switch-cell v-model="checked" disabled title="Title" />
-</zan-cell-group>
+<zvm-cell-group>
+  <zvm-switch-cell v-model="checked" disabled title="Title" />
+</zvm-cell-group>
 ```
 
 
@@ -43,9 +43,9 @@ use `disabled` property to disable the component
 use `loading` property to keep component in loading state
 
 ```html
-<zan-cell-group>
-  <zan-switch-cell v-model="checked" loading title="Title" />
-</zan-cell-group>
+<zvm-cell-group>
+  <zvm-switch-cell v-model="checked" loading title="Title" />
+</zvm-cell-group>
 ```
 
 ### API

@@ -1,10 +1,10 @@
 <template>
-  <section class="zan-doc-demo-pages">
+  <section class="zvm-doc-demo-pages">
     <h2>{{ $t('title') }}</h2>
     <p>{{ $t('description') }}</p>
-    <div class="zan-doc-demo-pages__gallery">
+    <div class="zvm-doc-demo-pages__gallery">
       <div
-        :class="['zan-doc-demo-pages__item', { 'zan-doc-demo-pages__item--active': index === currentDemo }]"
+        :class="['zvm-doc-demo-pages__item', { 'zvm-doc-demo-pages__item--active': index === currentDemo }]"
         v-for="(demo, index) in demos"
         :key="index">
         <h4>{{ demo.title }}</h4>
@@ -38,7 +38,7 @@ Locale.add({
 });
 
 export default {
-  name: 'zan-doc-demo-pages',
+  name: 'zvm-doc-demo-pages',
 
   data() {
     return {
@@ -71,7 +71,7 @@ export default {
 </script>
 
 <style lang="postcss">
-.zan-doc-demo-pages {
+.zvm-doc-demo-pages {
   &__gallery {
     margin-top: 30px;
   }

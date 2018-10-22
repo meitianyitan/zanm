@@ -1,5 +1,5 @@
 <template>
-  <div :class="[b(), { 'zan-hairline--top-bottom': border }]">
+  <div :class="[b(), { 'zvm-hairline--top-bottom': border }]">
     <slot />
   </div>
 </template>

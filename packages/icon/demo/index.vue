@@ -1,10 +1,10 @@
 <template>
   <demo-section>
     <demo-block :title="$t('title')">
-      <zan-col span="8" v-for="icon in icons" :key="icon">
-        <zan-icon :name="icon" />
+      <zvm-col span="8" v-for="icon in icons" :key="icon">
+        <zvm-icon :name="icon" />
         <span>{{ icon }}</span>
-      </zan-col>
+      </zvm-col>
     </demo-block>
   </demo-section>
 </template>
@@ -33,7 +33,7 @@ export default {
 .demo-icon {
   font-size: 0;
 
-  .zan-col {
+  .zvm-col {
     text-align: center;
     height: 100px;
     float: none;
@@ -41,7 +41,7 @@ export default {
     vertical-align: middle;
   }
 
-  .zan-icon {
+  .zvm-icon {
     display: block;
     font-size: 32px;
     margin: 15px 0;

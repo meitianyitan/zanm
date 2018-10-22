@@ -1,7 +1,7 @@
 <template>
   <demo-section>
     <demo-block :title="$t('basicUsage')">
-      <zan-nav-bar
+      <zvm-nav-bar
         :title="$t('title')"
         :left-text="$t('back')"
         :right-text="$t('button')"
@@ -12,9 +12,9 @@
     </demo-block>
 
     <demo-block :title="$t('advancedUsage')">
-      <zan-nav-bar :title="$t('title')" :left-text="$t('back')" left-arrow>
-        <zan-icon name="search" slot="right" />
-      </zan-nav-bar>
+      <zvm-nav-bar :title="$t('title')" :left-text="$t('back')" left-arrow>
+        <zvm-icon name="search" slot="right" />
+      </zvm-nav-bar>
     </demo-block>
   </demo-section>
 </template>

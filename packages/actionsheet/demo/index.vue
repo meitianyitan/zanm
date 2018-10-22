@@ -1,13 +1,13 @@
 <template>
   <demo-section>
     <demo-block :title="$t('basicUsage')">
-      <zan-button @click="show1 = true">{{ $t('button1') }}</zan-button>
-      <zan-actionsheet v-model="show1" :actions="actions" @select="onSelect" />
+      <zvm-button @click="show1 = true">{{ $t('button1') }}</zvm-button>
+      <zvm-actionsheet v-model="show1" :actions="actions" @select="onSelect" />
     </demo-block>
 
     <demo-block :title="$t('title2')">
-      <zan-button @click="show2 = true">{{ $t('button2') }}</zan-button>
-      <zan-actionsheet
+      <zvm-button @click="show2 = true">{{ $t('button2') }}</zvm-button>
+      <zvm-actionsheet
         v-model="show2"
         :actions="actions"
         :cancel-text="$t('cancel')"
@@ -17,10 +17,10 @@
     </demo-block>
 
     <demo-block :title="$t('title3')">
-      <zan-button @click="show3 = true">{{ $t('button3') }}</zan-button>
-      <zan-actionsheet v-model="show3" :title="$t('title')">
+      <zvm-button @click="show3 = true">{{ $t('button3') }}</zvm-button>
+      <zvm-actionsheet v-model="show3" :title="$t('title')">
         <p>{{ $t('content') }}</p>
-      </zan-actionsheet>
+      </zvm-actionsheet>
     </demo-block>
   </demo-section>
 </template>
@@ -83,7 +83,7 @@ export default {
 
 <style lang="postcss">
 .demo-actionsheet {
-  .zan-button {
+  .zvm-button {
     margin-left: 15px;
   }
 

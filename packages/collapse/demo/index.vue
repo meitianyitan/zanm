@@ -1,31 +1,31 @@
 <template>
   <demo-section>
     <demo-block :title="$t('basicUsage')">
-      <zan-collapse v-model="active1">
-        <zan-collapse-item :title="$t('title1')">{{ $t('content1') }}</zan-collapse-item>
-        <zan-collapse-item :title="$t('title2')">{{ $t('content2') }}</zan-collapse-item>
-        <zan-collapse-item :title="$t('title3')" disabled>{{ $t('content3') }}</zan-collapse-item>
-      </zan-collapse>
+      <zvm-collapse v-model="active1">
+        <zvm-collapse-item :title="$t('title1')">{{ $t('content1') }}</zvm-collapse-item>
+        <zvm-collapse-item :title="$t('title2')">{{ $t('content2') }}</zvm-collapse-item>
+        <zvm-collapse-item :title="$t('title3')" disabled>{{ $t('content3') }}</zvm-collapse-item>
+      </zvm-collapse>
     </demo-block>
 
     <demo-block :title="$t('accordion')">
-      <zan-collapse v-model="active2" accordion>
-        <zan-collapse-item :title="$t('title1')">{{ $t('content1') }}</zan-collapse-item>
-        <zan-collapse-item :title="$t('title2')">{{ $t('content2') }}</zan-collapse-item>
-        <zan-collapse-item :title="$t('title3')">{{ $t('content3') }}</zan-collapse-item>
-      </zan-collapse>
+      <zvm-collapse v-model="active2" accordion>
+        <zvm-collapse-item :title="$t('title1')">{{ $t('content1') }}</zvm-collapse-item>
+        <zvm-collapse-item :title="$t('title2')">{{ $t('content2') }}</zvm-collapse-item>
+        <zvm-collapse-item :title="$t('title3')">{{ $t('content3') }}</zvm-collapse-item>
+      </zvm-collapse>
     </demo-block>
 
     <demo-block :title="$t('titleSlot')">
-      <zan-collapse v-model="active3">
-        <zan-collapse-item>
-          <div slot="title">{{ $t('title1') }}<zan-icon name="question" /></div>
+      <zvm-collapse v-model="active3">
+        <zvm-collapse-item>
+          <div slot="title">{{ $t('title1') }}<zvm-icon name="question" /></div>
           {{ $t('content1') }}
-        </zan-collapse-item>
-        <zan-collapse-item :title="$t('title2')" :value="$t('content')" icon="shop">
+        </zvm-collapse-item>
+        <zvm-collapse-item :title="$t('title2')" :value="$t('content')" icon="shop">
           {{ $t('content2') }}
-        </zan-collapse-item>
-      </zan-collapse>
+        </zvm-collapse-item>
+      </zvm-collapse>
     </demo-block>
   </demo-section>
 </template>
@@ -69,13 +69,13 @@ export default {
 @import "../../../packages/zanm-css/src/common/var.css";
 
 .demo-collapse {
-  .zan-collapse-item__content {
+  .zvm-collapse-item__content {
     font-size: 13px;
     line-height: 1.5;
     color: $gray-darker;
   }
 
-  .zan-icon-question {
+  .zvm-icon-question {
     color: $blue;
     vertical-align: -3px;
     margin-left: 5px;

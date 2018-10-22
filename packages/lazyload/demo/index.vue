@@ -74,8 +74,8 @@ export default {
     box-sizing: border-box;
   }
 
-  .zan-doc-demo-block__title,
-  .zan-doc-demo-section__title {
+  .zvm-doc-demo-block__title,
+  .zvm-doc-demo-section__title {
     padding-left: 0;
   }
 }

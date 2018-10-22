@@ -86,9 +86,9 @@ packages
 书写代码演示时，建议从简单用法开始介绍，不要上来就同时使用一大堆 API，会让人觉得难以上手。并且一个示例只演示一个 API 的使用方法，如无特殊需求不要在一个示例中同时演示多个 API 混合使用。
 
 ```html
-<zan-button :size="size">
+<zvm-button :size="size">
   Large
-</zan-button>
+</zvm-button>
 ```
 
 ```javascript

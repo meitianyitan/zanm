@@ -1,6 +1,6 @@
 <template>
   <div class="app">
-    <zan-doc
+    <zvm-doc
       :base="base"
       :config="config"
       active="Vue 组件"
@@ -8,7 +8,7 @@
       :current-simulator="currentSimulator"
     >
       <router-view @changeDemoURL="onChangeDemoURL" />
-    </zan-doc>
+    </zvm-doc>
   </div>
 </template>
 
@@ -47,7 +47,7 @@ export default {
 </script>
 
 <style lang="postcss">
-.zan-doc-intro {
+.zvm-doc-intro {
   text-align: center;
   font-family: "Dosis", "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
 

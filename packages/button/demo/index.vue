@@ -2,38 +2,38 @@
   <demo-section>
     <demo-block :title="$t('type')">
       <div class="demo-button-row">
-        <zan-button type="primary">{{ $t('primary') }}</zan-button>
-        <zan-button type="danger">{{ $t('danger') }}</zan-button>
+        <zvm-button type="primary">{{ $t('primary') }}</zvm-button>
+        <zvm-button type="danger">{{ $t('danger') }}</zvm-button>
       </div>
-      <zan-button type="default">{{ $t('default') }}</zan-button>
-      <zan-button type="warning">{{ $t('warning') }}</zan-button>
+      <zvm-button type="default">{{ $t('default') }}</zvm-button>
+      <zvm-button type="warning">{{ $t('warning') }}</zvm-button>
     </demo-block>
 
     <demo-block :title="$t('plain')">
-      <zan-button plain type="primary">{{ $t('plain') }}</zan-button>
-      <zan-button plain type="danger">{{ $t('plain') }}</zan-button>
+      <zvm-button plain type="primary">{{ $t('plain') }}</zvm-button>
+      <zvm-button plain type="danger">{{ $t('plain') }}</zvm-button>
     </demo-block>
 
     <demo-block :title="$t('disabled')">
-      <zan-button disabled type="primary">{{ $t('disabled') }}</zan-button>
-      <zan-button disabled type="danger">{{ $t('disabled') }}</zan-button>
+      <zvm-button disabled type="primary">{{ $t('disabled') }}</zvm-button>
+      <zvm-button disabled type="danger">{{ $t('disabled') }}</zvm-button>
     </demo-block>
 
     <demo-block :title="$t('loading')">
-      <zan-button loading type="primary" />
-      <zan-button loading type="danger" />
+      <zvm-button loading type="primary" />
+      <zvm-button loading type="danger" />
     </demo-block>
 
     <demo-block :title="$t('shape')">
-      <zan-button type="primary" square>{{ $t('square') }}</zan-button>
-      <zan-button type="danger" round>{{ $t('round') }}</zan-button>
+      <zvm-button type="primary" square>{{ $t('square') }}</zvm-button>
+      <zvm-button type="danger" round>{{ $t('round') }}</zvm-button>
     </demo-block>
 
     <demo-block :title="$t('size')">
-      <zan-button size="large">{{ $t('large') }}</zan-button>
-      <zan-button size="normal">{{ $t('normal') }}</zan-button>
-      <zan-button size="small">{{ $t('small') }}</zan-button>
-      <zan-button size="mini">{{ $t('mini') }}</zan-button>
+      <zvm-button size="large">{{ $t('large') }}</zvm-button>
+      <zvm-button size="normal">{{ $t('normal') }}</zvm-button>
+      <zvm-button size="small">{{ $t('small') }}</zvm-button>
+      <zvm-button size="mini">{{ $t('mini') }}</zvm-button>
     </demo-block>
   </demo-section>
 </template>
@@ -81,7 +81,7 @@ export default {
 
 <style lang="postcss">
 .demo-button {
-  .zan-button {
+  .zvm-button {
     user-select: none;
 
     &--large {
@@ -93,16 +93,16 @@ export default {
       margin-right: 10px;
     }
 
-    .zan-loading {
+    .zvm-loading {
       margin: 0 18px;
     }
   }
 
-  .zan-doc-demo-block {
+  .zvm-doc-demo-block {
     padding: 0 15px;
   }
 
-  .zan-doc-demo-block__title {
+  .zvm-doc-demo-block__title {
     padding-left: 0;
   }
 

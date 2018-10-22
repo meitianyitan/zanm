@@ -1,6 +1,6 @@
 <template>
   <div
-    class="zan-hairline--bottom"
+    class="zvm-hairline--bottom"
     :class="b({ fixed })"
     :style="style"
   >
@@ -10,7 +10,7 @@
         <span v-if="leftText" v-text="leftText" :class="b('text')" />
       </slot>
     </div>
-    <div :class="b('title')" class="zan-ellipsis">
+    <div :class="b('title')" class="zvm-ellipsis">
       <slot name="title">{{ title }}</slot>
     </div>
     <div :class="b('right')" @click="$emit('click-right')">

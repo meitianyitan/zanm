@@ -11,7 +11,7 @@ Vue.use(Switch);
 
 #### 基础用法
 ```html
-<zan-switch v-model="checked" />
+<zvm-switch v-model="checked" />
 ```
 
 ```javascript
@@ -26,17 +26,17 @@ export default {
 
 #### 禁用状态
 ```html
-<zan-switch v-model="checked" disabled />
+<zvm-switch v-model="checked" disabled />
 ```
 
 #### 加载状态
 ```html
-<zan-switch v-model="checked" loading />
+<zvm-switch v-model="checked" loading />
 ```
 
 #### 高级用法
 ```html
-<zan-switch :value="checked" size="36px" @input="onInput" />
+<zvm-switch :value="checked" size="36px" @input="onInput" />
 ```
 
 ```js

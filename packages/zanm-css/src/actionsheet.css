@@ -1,6 +1,6 @@
 @import './common/var.css';
 
-.zan-actionsheet {
+.zvm-actionsheet {
   position: fixed;
   left: 0;
   right: 0;
@@ -55,7 +55,7 @@
     line-height: 44px;
     text-align: center;
 
-    .zan-icon-close {
+    .zvm-icon-close {
       top: 0;
       right: 0;
       padding: 0 15px;

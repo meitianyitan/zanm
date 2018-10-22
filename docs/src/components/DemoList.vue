@@ -1,7 +1,7 @@
 <template>
   <div class="side-nav">
     <h1 class="zanui-title">
-      <img class="zan-doc-intro__logo" src="http://static.sosout.com/images/zanm-logo.svg" alt="zan-doc-intro__logo" >
+      <img class="zvm-doc-intro__logo" src="http://static.sosout.com/images/zanm-logo.svg" alt="zvm-doc-intro__logo" >
       <span>Zanm</span>
     </h1>
     <div class="mobile-switch-lang">

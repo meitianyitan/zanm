@@ -17,7 +17,7 @@ test('callback events', () => {
   const options = wrapper.findAll('li');
   options.at(0).trigger('click');
   options.at(1).trigger('click');
-  wrapper.find('.zan-actionsheet__cancel').trigger('click');
+  wrapper.find('.zvm-actionsheet__cancel').trigger('click');
 
   expect(callback.mock.calls.length).toBe(1);
   expect(wrapper.emitted('cancel')).toBeTruthy();

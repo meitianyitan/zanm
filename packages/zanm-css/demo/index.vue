@@ -1,24 +1,24 @@
 <template>
   <demo-section>
     <demo-block :title="$t('ellipsis')">
-      <div class="zan-ellipsis">{{ $t('text') }}</div>
+      <div class="zvm-ellipsis">{{ $t('text') }}</div>
     </demo-block>
 
     <demo-block :title="$t('hairline')">
-      <div class="zan-hairline--top" />
+      <div class="zvm-hairline--top" />
     </demo-block>
 
     <demo-block :title="$t('animation')">
-      <zan-switch-cell v-model="show" :title="$t('toggle')" :border="false" />
-      <zan-row>
-        <transition name="zan-fade">
-          <zan-col span="8" v-show="show">Fade</zan-col>
+      <zvm-switch-cell v-model="show" :title="$t('toggle')" :border="false" />
+      <zvm-row>
+        <transition name="zvm-fade">
+          <zvm-col span="8" v-show="show">Fade</zvm-col>
         </transition>
 
-        <transition name="zan-slide-bottom">
-          <zan-col span="8" v-show="show">Slide Bottom</zan-col>
+        <transition name="zvm-slide-bottom">
+          <zvm-col span="8" v-show="show">Slide Bottom</zvm-col>
         </transition>
-      </zan-row>
+      </zvm-row>
     </demo-block>
   </demo-section>
 </template>
@@ -52,13 +52,13 @@ export default {
 
 <style lang="postcss">
 .demo-zanm-css {
-  .zan-ellipsis {
+  .zvm-ellipsis {
     font-size: 13px;
     margin-left: 15px;
     max-width: 250px;
   }
 
-  .zan-hairline--top {
+  .zvm-hairline--top {
     height: 30px;
     background-color: #fff;
 
@@ -67,7 +67,7 @@ export default {
     }
   }
 
-  .zan-col {
+  .zvm-col {
     height: 50px;
     color: #fff;
     font-size: 14px;
@@ -78,7 +78,7 @@ export default {
     background-color: #39a9ed;
   }
 
-  .zan-switch-cell {
+  .zvm-switch-cell {
     margin-bottom: 15px;
   }
 }

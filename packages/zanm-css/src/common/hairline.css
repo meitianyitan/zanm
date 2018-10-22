@@ -1,6 +1,6 @@
 @import "../mixins/hairline.css";
 
-[class*='zan-hairline'] {
+[class*='zvm-hairline'] {
   position: relative;
 
   &::after {
@@ -8,7 +8,7 @@
   }
 }
 
-.zan-hairline {
+.zvm-hairline {
   &--top::after {
     border-top-width: 1px;
   }

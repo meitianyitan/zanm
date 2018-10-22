@@ -1,10 +1,10 @@
 @import './common/var.css';
 
-.zan-switch-cell {
+.zvm-switch-cell {
   padding-top: 8px;
   padding-bottom: 8px;
 
-  .zan-switch {
+  .zvm-switch {
     float: right;
   }
 }
