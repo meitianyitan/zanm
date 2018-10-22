@@ -75,6 +75,10 @@ module.exports = {
             groupName: '基础组件',
             list: [
               {
+                path: '/icon',
+                title: 'Icon 图标'
+              },
+              {
                 path: '/col',
                 title: 'Layout 布局'
               },
@@ -97,10 +101,6 @@ module.exports = {
               {
                 path: '/collapse',
                 title: 'Collapse 折叠面板'
-              },
-              {
-                path: '/icon',
-                title: 'Icon 图标'
               },
               {
                 path: '/lazyload',
@@ -317,6 +317,7 @@ module.exports = {
         href: '#/'
       },
       nav: {
+        'My Blog': 'http://www.sosout.com/',
         lang: {
           text: '中文',
           from: 'en-US',
@@ -371,6 +372,10 @@ module.exports = {
             groupName: 'Basic Components',
             list: [
               {
+                path: '/icon',
+                title: 'Icon'
+              },
+              {
                 path: '/col',
                 title: 'Layout'
               },
@@ -393,10 +398,6 @@ module.exports = {
               {
                 path: '/collapse',
                 title: 'Collapse'
-              },
-              {
-                path: '/icon',
-                title: 'Icon'
               },
               {
                 path: '/lazyload',

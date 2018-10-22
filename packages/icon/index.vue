@@ -8,6 +8,7 @@
 <script>
 import Info from '../info';
 import create from '../utils/create-basic';
+const prefixCls = 'zvm-icon';
 
 export default create({
   name: 'icon',
@@ -23,7 +24,7 @@ export default create({
     size: String,
     classPrefix: {
       type: String,
-      default: 'zan-icon'
+      default: prefixCls
     }
   },
 
