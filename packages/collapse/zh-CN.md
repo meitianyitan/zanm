@@ -14,13 +14,13 @@ Vue.use(Collapse).use(CollapseItem);
 
 ```html
 <zvm-collapse v-model="activeNames">
-  <zvm-collapse-item title="有赞微商城" name="1">
+  <zvm-collapse-item title="VM微商城" name="1">
     提供多样店铺模板，快速搭建网上商城
   </zvm-collapse-item>
-  <zvm-collapse-item title="有赞零售" name="2">
+  <zvm-collapse-item title="VM零售" name="2">
     网店吸粉获客、会员分层营销、一机多种收款，告别经营低效和客户流失
   </zvm-collapse-item>
-  <zvm-collapse-item title="有赞美业" name="3" disabled>
+  <zvm-collapse-item title="VM美业" name="3" disabled>
     线上拓客，随时预约，贴心顺手的开单收银
   </zvm-collapse-item>
 </zvm-collapse>
@@ -41,13 +41,13 @@ export default {
 
 ```html
 <zvm-collapse v-model="activeName" accordion>
-  <zvm-collapse-item title="有赞微商城" name="1">
+  <zvm-collapse-item title="VM微商城" name="1">
     提供多样店铺模板，快速搭建网上商城
   </zvm-collapse-item>
-  <zvm-collapse-item title="有赞零售" name="2">
+  <zvm-collapse-item title="VM零售" name="2">
     网店吸粉获客、会员分层营销、一机多种收款，告别经营低效和客户流失
   </zvm-collapse-item>
-  <zvm-collapse-item title="有赞美业" name="3">
+  <zvm-collapse-item title="VM美业" name="3">
     线上拓客，随时预约，贴心顺手的开单收银
   </zvm-collapse-item>
 </zvm-collapse>
@@ -71,7 +71,7 @@ export default {
     <div slot="title">标题<zvm-icon name="question" /></div>
     提供多样店铺模板，快速搭建网上商城
   </zvm-collapse-item>
-  <zvm-collapse-item title="有赞零售" name="2">
+  <zvm-collapse-item title="VM零售" name="2">
     网店吸粉获客、会员分层营销、一机多种收款，告别经营低效和客户流失
   </zvm-collapse-item>
 </zvm-collapse>

@@ -278,7 +278,7 @@ module.exports = {
       css: 'wap-nav'
     },
     {
-      src: '有赞E卡.svg',
+      src: 'VME卡.svg',
       css: 'ecard-pay'
     },
     {
