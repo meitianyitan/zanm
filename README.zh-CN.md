@@ -114,8 +114,12 @@ Vue.use(Zanm);
 现代浏览器以及 Android 4.0+, iOS 6+.
 
 ## 链接
+* [详细文档](http://m.zantb.com/#/zh-CN/intro)
+* [更新日志](http://m.zantb.com/#/zh-CN/changelog)
 
 ## 手机预览
+可以手机扫码以下二维码访问手机端 demo：
+<img src="http://static.sosout.com/images/preview_qrcode_20181023.png" width="220" height="220" />
 
 ## 开源协议
 
