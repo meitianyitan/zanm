@@ -23,9 +23,9 @@ vue ui
 
 <img width="100%" style="box-shadow: 0 1px 1px rgba(0, 0, 0, .1); border-radius: 3px;" src="http://static.sosout.com/images/quickstart-ui.png" >
 
-### 示例工程
+<!-- ### 示例工程
 
-我们提供了一个基于 Vue Cli 3 的示例工程：[Zanm Demo](https://github.com/meitianyitan/zanm-demo)。
+我们提供了一个基于 Vue Cli 3 的示例工程：[Zanm Demo](https://github.com/meitianyitan/zanm-demo)。 -->
 
 ### 安装
 
@@ -183,4 +183,4 @@ module.exports = {
 }
 ```
 
-> 注意：在配置 postcss-loader 时，应避免 ignore node_modules 目录，这会导致 Zanm 的样式无法被编译
+> 注意：在配置 postcss-loader 时，应避免 ignore node_modules 目录，这会导致 Zanm 的样式无法被编译

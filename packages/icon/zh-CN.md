@@ -68,8 +68,3 @@ import 'zanm/lib/zanm-css/icon-local.css';
 
 | 版本 | 类型 | 内容 |
 |-----------|-----------|-----------|
-| 1.2.1 | feature | 新增 class-prefix 属性
-| 1.2.0 | bugfix | 修复 size 属性不生效的问题
-| 1.1.15 | feature | 新增 size 属性
-| 1.1.10 | breaking change | 移除 birthday-privilege、member-day-privilege、balance-details 图标
-| 1.1.3 | feature | 新增 color 属性

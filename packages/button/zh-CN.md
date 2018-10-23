@@ -86,11 +86,3 @@ Vue.use(Button);
 
 | 版本 | 类型 | 内容 |
 |-----------|-----------|-----------|
-| 1.3.4 | feature | 新增 round 属性 |
-| 1.3.1 | bugfix | 修复加载图标颜色错误的问题
-| 1.2.0 | feature | 新增 square 属性
-| 1.1.15 | feature | 新增 warning 类型
-| 1.1.15 | bugfix | 修复浏览器文字缩放时样式错误的问题
-| 1.1.13 | feature | 新增 plain 属性
-| 1.0.5 | bugfix | 修复 loading 状态下无法水平对齐的问题
-| 1.0.4 | bugfix | 修复加载状态下可点击的问题

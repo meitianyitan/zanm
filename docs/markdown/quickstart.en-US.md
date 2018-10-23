@@ -23,9 +23,9 @@ In the GUI, click on 'Dependencies' -> `Install Dependencies` and add `zanm` to 
 
 <img width="100%" style="box-shadow: 0 1px 1px rgba(0, 0, 0, .1); border-radius: 3px;" src="http://static.sosout.com/images/quickstart-ui.png" />
 
-### Sample Project
+<!-- ### Sample Project
 
-I have provided [an example project](https://github.com/meitianyitan/zanm-demo) based on the Vue Cli 3.
+I have provided [an example project](https://github.com/meitianyitan/zanm-demo) based on the Vue Cli 3. -->
 
 ### Install
 
