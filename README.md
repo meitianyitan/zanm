@@ -76,7 +76,45 @@ Then you can import components from zanm, equivalent to import manually below.
 import { Button } from 'zanm';
 ```
 
-> If you are using TypeScript，please use [ts-import-plugin](https://github.com/Brooooooklyn/ts-import-plugin) instead
+If you are using TypeScript，please use [ts-import-plugin](https://github.com/Brooooooklyn/ts-import-plugin) instead, The following is a configuration using Vue's official scaffolding [Vue Cli 3](https://cli.vuejs.org/zh/) to build：
+```bash
+# Install ts-import-plugin
+npm i ts-import-plugin -D
+```
+
+```js
+// vue.config.js
+const tsImportPluginFactory = require('ts-import-plugin');
+module.exports = {
+  parellel: false,
+  lintOnSave: false,
+  configureWebpack: {
+    module: {
+      rules: [{
+        test: /\.(jsx|tsx|js|ts)$/,
+        loader: 'ts-loader',
+        options: {
+          happyPackMode: false,
+          transpileOnly: true,
+          getCustomTransformers: () => ({
+            before: [tsImportPluginFactory({
+              libraryName: 'zanm',
+              libraryDirectory: 'es',
+              style: true
+            })]
+          }),
+          compilerOptions: {
+            module: 'es2015'
+          }
+        },
+      }]
+    }
+  },
+  devServer: {
+    disableHostCheck: true
+  }
+}
+```
 
 #### 2. Manually import
 

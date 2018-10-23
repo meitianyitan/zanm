@@ -4,7 +4,7 @@ const glob = require('fast-glob');
 const uppercamelize = require('uppercamelcase');
 const Components = require('./get-components');
 const version = process.env.VERSION || require('../package.json').version;
-const tips = '// 此文件是通过 build/build-entry.js 自动生成的';
+const tips = '// This file is auto gererated by build/build-entry.js';
 const root = path.join(__dirname, '../');
 const join = dir => path.join(root, dir);
 

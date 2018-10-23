@@ -56,8 +56,8 @@ export default {
 };
 </script>
 
-<style lang="postcss">
-@import '../../../packages/zanm-css/src/common/var.css';
+<style lang="less">
+@import '../../../packages/zanm-css/src/common/var.less';
 
 .side-nav {
   width: 100%;

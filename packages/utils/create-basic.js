@@ -4,14 +4,14 @@
 import '../locale';
 import bem from '../mixins/bem';
 import i18n from '../mixins/i18n';
-import { isDef } from './';
+import { isDef, prefixes } from './';
 
 const install = function(Vue) {
   Vue.component(this.name, this);
 };
 
 export default function(sfc) {
-  sfc.name = 'zvm-' + sfc.name;
+  sfc.name = prefixes + sfc.name;
   sfc.install = sfc.install || install;
   sfc.mixins = sfc.mixins || [];
   sfc.mixins.push(i18n, bem);

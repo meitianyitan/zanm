@@ -1,4 +1,4 @@
-// 此文件是通过 build/build-entry.js 自动生成的
+// This file is auto gererated by build/build-entry.js
 export default {
   'changelog.en-US': () => import('../markdown/changelog.en-US.md'),
   'changelog.zh-CN': () => import('../markdown/changelog.zh-CN.md'),

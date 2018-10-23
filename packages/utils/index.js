@@ -27,10 +27,13 @@ function camelize(str) {
   return str.replace(camelizeRE, (_, c) => c.toUpperCase());
 }
 
+const prefixes = 'zvm-';
+
 export {
   isDef,
   isObj,
   get,
   isServer,
-  camelize
+  camelize,
+  prefixes
 };

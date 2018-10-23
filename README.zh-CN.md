@@ -80,7 +80,46 @@ npm i babel-plugin-import -D
 import { Button } from 'zanm';
 ```
 
-> 如果你在使用 TypeScript，可以使用 [ts-import-plugin](https://github.com/Brooooooklyn/ts-import-plugin) 实现按需引入
+如果你在使用 TypeScript，可以使用 [ts-import-plugin](https://github.com/Brooooooklyn/ts-import-plugin) 实现按需引入，下面使用 Vue 官方提供的脚手架 [Vue Cli 3](https://cli.vuejs.org/zh/) 配置：
+
+```bash
+# 安装 ts-import-plugin 插件
+npm i ts-import-plugin -D
+```
+
+```js
+// vue.config.js
+const tsImportPluginFactory = require('ts-import-plugin');
+module.exports = {
+  parellel: false,
+  lintOnSave: false,
+  configureWebpack: {
+    module: {
+      rules: [{
+        test: /\.(jsx|tsx|js|ts)$/,
+        loader: 'ts-loader',
+        options: {
+          happyPackMode: false,
+          transpileOnly: true,
+          getCustomTransformers: () => ({
+            before: [tsImportPluginFactory({
+              libraryName: 'zanm',
+              libraryDirectory: 'es',
+              style: true
+            })]
+          }),
+          compilerOptions: {
+            module: 'es2015'
+          }
+        },
+      }]
+    }
+  },
+  devServer: {
+    disableHostCheck: true
+  }
+}
+```
 
 #### 方式二. 按需引入组件
 

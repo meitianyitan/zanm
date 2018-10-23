@@ -1,4 +1,4 @@
-// 此文件是通过 build/build-entry.js 自动生成的
+// This file is auto gererated by build/build-entry.js
 import Actionsheet from './actionsheet';
 import Button from './button';
 import Cell from './cell';
