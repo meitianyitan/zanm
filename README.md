@@ -113,6 +113,7 @@ Modern browsers and Android 4.0+, iOS 6+.
 ## Preview
 
 You can scan the following QR code to access the demo：
+
 <img src="http://static.sosout.com/images/preview_qrcode_20181023.png" width="220" height="220" />
 
 ## LICENSE
