@@ -1,5 +1,6 @@
 const gulp = require('gulp');
 const less = require('gulp-less');
+const postcss = require('gulp-postcss');
 const cssmin = require('gulp-clean-css');
 const fs = require('fs-extra');
 
@@ -9,6 +10,7 @@ gulp.task('compile', () => {
   return gulp
     .src('./src/*.less')
     .pipe(less())
+    .pipe(postcss())
     .pipe(cssmin())
     .pipe(gulp.dest('./lib'));
 });
