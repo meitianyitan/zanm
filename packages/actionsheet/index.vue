@@ -1,15 +1,15 @@
 <template>
-  <transition name="zan-slide-bottom">
+  <transition name="zvm-slide-bottom">
     <div v-if="shouldRender" v-show="value" :class="b({ 'withtitle': title })">
-      <div v-if="title" class="zan-hairline--top-bottom" :class="b('header')">
+      <div v-if="title" class="zvm-hairline--top-bottom" :class="b('header')">
         <div v-text="title" />
         <icon name="close" @click="onCancel" />
       </div>
-      <ul v-else class="zan-hairline--bottom">
+      <ul v-else class="zvm-hairline--bottom">
         <li
           v-for="(item, index) in actions"
           :key="index"
-          :class="[b('item', { disabled: item.disabled || item.loading }), item.className, 'zan-hairline--top']"
+          :class="[b('item', { disabled: item.disabled || item.loading }), item.className, 'zvm-hairline--top']"
           @click.stop="onSelect(item)"
         >
           <template v-if="!item.loading">
@@ -22,7 +22,7 @@
       <div
         v-if="cancelText"
         v-text="cancelText"
-        :class="[b('cancel'), 'zan-hairline--top']"
+        :class="[b('cancel'), 'zvm-hairline--top']"
         @click="onCancel"
       />
       <div v-else :class="b('content')">

@@ -1,7 +1,7 @@
 <template>
-  <zan-collapse v-model="active" class="mobile-nav">
-    <zan-collapse-item :title="group.groupName" :name="group.groupName" class="mobile-nav__item">
-      <zan-cell
+  <zvm-collapse v-model="active" class="mobile-nav">
+    <zvm-collapse-item :title="group.groupName" :name="group.groupName" class="mobile-nav__item">
+      <zvm-cell
         v-if="!navItem.disabled"
         v-for="(navItem, index) in group.list"
         :key="index"
@@ -9,8 +9,8 @@
         :title="navItem.title"
         is-link
       />
-    </zan-collapse-item>
-  </zan-collapse>
+    </zvm-collapse-item>
+  </zvm-collapse>
 </template>
 
 <script>
@@ -38,11 +38,11 @@ export default {
     display: none;
   }
 
-  .zan-collapse-item__content {
+  .zvm-collapse-item__content {
     padding: 0;
   }
 
-  .zan-collapse-item__title {
+  .zvm-collapse-item__title {
     font-size: 16px;
     line-height: 36px;
     align-items: center;

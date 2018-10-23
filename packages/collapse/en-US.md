@@ -13,11 +13,11 @@ Vue.use(Collapse).use(CollapseItem);
 Use `v-model` to control the name of active panels
 
 ```html
-<zan-collapse v-model="activeNames">
-  <zan-collapse-item title="Title1" name="1">Content</zan-collapse-item>
-  <zan-collapse-item title="Title2" name="2">Content</zan-collapse-item>
-  <zan-collapse-item title="Title3" name="3" disabled>Content</zan-collapse-item>
-</zan-collapse>
+<zvm-collapse v-model="activeNames">
+  <zvm-collapse-item title="Title1" name="1">Content</zvm-collapse-item>
+  <zvm-collapse-item title="Title2" name="2">Content</zvm-collapse-item>
+  <zvm-collapse-item title="Title3" name="3" disabled>Content</zvm-collapse-item>
+</zvm-collapse>
 ```
 
 ``` javascript
@@ -34,11 +34,11 @@ export default {
 In accordion mode, only one panel can be expanded at the same time.
 
 ```html
-<zan-collapse v-model="activeName" accordion>
-  <zan-collapse-item title="Title1" name="1">Content</zan-collapse-item>
-  <zan-collapse-item title="Title2" name="2">Content</zan-collapse-item>
-  <zan-collapse-item title="Title3" name="3">Content</zan-collapse-item>
-</zan-collapse>
+<zvm-collapse v-model="activeName" accordion>
+  <zvm-collapse-item title="Title1" name="1">Content</zvm-collapse-item>
+  <zvm-collapse-item title="Title2" name="2">Content</zvm-collapse-item>
+  <zvm-collapse-item title="Title3" name="3">Content</zvm-collapse-item>
+</zvm-collapse>
 ```
 
 ``` javascript
@@ -54,15 +54,15 @@ export default {
 #### Custom title
 
 ```html
-<zan-collapse v-model="activeNames">
-  <zan-collapse-item name="1">
-    <div slot="title">Title1<zan-icon name="question" /></div>
+<zvm-collapse v-model="activeNames">
+  <zvm-collapse-item name="1">
+    <div slot="title">Title1<zvm-icon name="question" /></div>
     Content
-  </zan-collapse-item>
-  <zan-collapse-item title="Title2" name="2">
+  </zvm-collapse-item>
+  <zvm-collapse-item title="Title2" name="2">
     Content
-  </zan-collapse-item>
-</zan-collapse>
+  </zvm-collapse-item>
+</zvm-collapse>
 ```
 
 

@@ -1,5 +1,5 @@
 @import '../mixins/clearfix.css';
 
-.zan-clearfix {
+.zvm-clearfix {
   @include clearfix;
 }

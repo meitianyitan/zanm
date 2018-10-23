@@ -1,16 +1,16 @@
 <template>
   <div>
-    <zan-nav-bar
+    <zvm-nav-bar
       v-show="title"
-      class="zan-doc-nav-bar"
+      class="zvm-doc-nav-bar"
       :title="title"
       left-arrow
       @click-left="onBack"
     >
       <a slot="right" :href="demoLink" target="_blank">
-        <zan-icon name="edit" />
+        <zvm-icon name="edit" />
       </a>
-    </zan-nav-bar>
+    </zvm-nav-bar>
     <keep-alive>
       <router-view />
     </keep-alive>
@@ -47,27 +47,27 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-.zan-doc-nav-bar {
-  .zan-nav-bar__title {
+.zvm-doc-nav-bar {
+  .zvm-nav-bar__title {
     font-size: 15px;
     text-transform: capitalize;
   }
 
-  .zan-nav-bar__left,
-  .zan-nav-bar__right {
+  .zvm-nav-bar__left,
+  .zvm-nav-bar__right {
     cursor: pointer;
   }
 
-  .zan-nav-bar__right {
+  .zvm-nav-bar__right {
     font-size: 16px;
 
-    .zan-icon {
+    .zvm-icon {
       vertical-align: -3px;
     }
   }
 }
 
-.zan-doc-demo-section {
+.zvm-doc-demo-section {
   margin-top: -46px;
   padding-top: 46px;
 }

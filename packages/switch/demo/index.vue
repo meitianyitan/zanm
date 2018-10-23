@@ -1,19 +1,19 @@
 <template>
   <demo-section>
     <demo-block :title="$t('basicUsage')">
-      <zan-switch v-model="checked" />
+      <zvm-switch v-model="checked" />
     </demo-block>
 
     <demo-block :title="$t('disabled')">
-      <zan-switch v-model="checked" disabled />
+      <zvm-switch v-model="checked" disabled />
     </demo-block>
 
     <demo-block :title="$t('loading')">
-      <zan-switch v-model="checked" loading />
+      <zvm-switch v-model="checked" loading />
     </demo-block>
 
     <demo-block :title="$t('advancedUsage')">
-      <zan-switch :value="checked2" size="36px" @input="onInput" />
+      <zvm-switch :value="checked2" size="36px" @input="onInput" />
     </demo-block>
   </demo-section>
 </template>
@@ -53,7 +53,7 @@ export default {
 
 <style lang="postcss">
 .demo-switch {
-  .zan-switch {
+  .zvm-switch {
     margin: 0 15px;
   }
 }

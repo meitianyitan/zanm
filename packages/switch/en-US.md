@@ -12,7 +12,7 @@ Vue.use(Switch);
 #### Basic Usage
 
 ```html
-<zan-switch v-model="checked" />
+<zvm-switch v-model="checked" />
 ```
 
 ```javascript
@@ -28,20 +28,20 @@ export default {
 #### Disabled
 
 ```html
-<zan-switch v-model="checked" disabled />
+<zvm-switch v-model="checked" disabled />
 ```
 
 #### Loading
 
 
 ```html
-<zan-switch v-model="checked" loading />
+<zvm-switch v-model="checked" loading />
 ```
 
 #### Advanced usage
 
 ```html
-<zan-switch :value="checked" size="36px" @input="onInput" />
+<zvm-switch :value="checked" size="36px" @input="onInput" />
 ```
 
 ```js

@@ -113,7 +113,7 @@ export default {
         on(document, 'touchstart', this.touchStart);
         on(document, 'touchmove', this.onTouchMove);
         if (!context.lockCount) {
-          document.body.classList.add('zan-overflow-hidden');
+          document.body.classList.add('zvm-overflow-hidden');
         }
         context.lockCount++;
       }
@@ -129,7 +129,7 @@ export default {
         off(document, 'touchstart', this.touchStart);
         off(document, 'touchmove', this.onTouchMove);
         if (!context.lockCount) {
-          document.body.classList.remove('zan-overflow-hidden');
+          document.body.classList.remove('zvm-overflow-hidden');
         }
       }
 

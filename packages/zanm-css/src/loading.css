@@ -1,6 +1,6 @@
 @import './common/var.css';
 
-.zan-loading {
+.zvm-loading {
   width: 30px;
   height: 30px;
   z-index: 0;
@@ -21,7 +21,7 @@
     position: relative;
     display: inline-block;
     box-sizing: border-box;
-    animation: zan-rotate 0.8s linear infinite;
+    animation: zvm-rotate 0.8s linear infinite;
 
     &--circle {
       border-radius: 100%;
@@ -70,23 +70,23 @@
       stroke: currentColor;
       stroke-width: 3;
       stroke-linecap: round;
-      animation: zan-circular 1.5s ease-in-out infinite;
+      animation: zvm-circular 1.5s ease-in-out infinite;
     }
   }
 
   &--white {
-    .zan-loading__spinner--circle {
+    .zvm-loading__spinner--circle {
       border-color: rgba(0, 0, 0, .1);
       border-top-color: rgba(255, 255, 255, .7);
     }
 
-    .zan-loading__spinner--gradient-circle {
+    .zvm-loading__spinner--gradient-circle {
       background-image: url('http://static.sosout.com/zanm/gradient-circle-white.png');
     }
   }
 }
 
-@keyframes zan-circular {
+@keyframes zvm-circular {
   0% {
     stroke-dasharray: 1, 200;
     stroke-dashoffset: 0;
@@ -104,7 +104,7 @@
 }
 
 @for $i from 1 to 12 {
-  .zan-loading__spinner--spinner i:nth-of-type($i) {
+  .zvm-loading__spinner--spinner i:nth-of-type($i) {
     opacity: calc(1 - (0.75 / 12) * ($i - 1));
     transform: rotate(calc($i * 30deg));
   }

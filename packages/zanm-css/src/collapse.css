@@ -1,8 +1,8 @@
 @import './common/var.css';
 
-.zan-collapse-item {
+.zvm-collapse-item {
   &__title {
-    .zan-cell__right-icon::before {
+    .zvm-cell__right-icon::before {
       transition: .3s;
       transform: rotate(90deg);
     }
@@ -12,7 +12,7 @@
     }
 
     &--expanded {
-      .zan-cell__right-icon::before {
+      .zvm-cell__right-icon::before {
         transform: rotate(-90deg);
       }
 
@@ -23,7 +23,7 @@
 
     &--disabled {
       &,
-      & .zan-cell__right-icon {
+      & .zvm-cell__right-icon {
         color: $gray;
       }
 

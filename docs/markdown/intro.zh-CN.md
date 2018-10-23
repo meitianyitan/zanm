@@ -1,5 +1,5 @@
-<div class="zan-doc-intro">
-  <img class="zan-doc-intro__logo" src="http://static.sosout.com/images/zanm-logo.svg" />
+<div class="zvm-doc-intro">
+  <img class="zvm-doc-intro__logo" src="http://static.sosout.com/images/zanm-logo.svg" />
   <h2>Zanm</h2>
   <p>一套基于 Vue.js 的移动端组件库</p>
 </div>

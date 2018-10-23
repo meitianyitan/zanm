@@ -13,7 +13,7 @@ Vue.use(Icon);
 View all usable icons on the right.
 
 ```html
-<zan-icon name="success" />
+<zvm-icon name="success" />
 ```
 
 #### Use local font file
@@ -31,17 +31,17 @@ import 'zanm/lib/zanm-css/icon-local.css';
   src: url('./iconfont.ttf') format('truetype');
 }
 
-.zan-icon {
+.zvm-icon {
   font-family: 'zanm-icon', 'custom-iconfont' !important;
 }
 
-.zan-icon-extra:before {
+.zvm-icon-extra:before {
   content: '\e626';
 }
 ```
 
 ```html
-<zan-icon name="extra" />
+<zvm-icon name="extra" />
 ```
 
 ### API
@@ -52,7 +52,7 @@ import 'zanm/lib/zanm-css/icon-local.css';
 | info | Info message | `String | Number` | `''` |
 | color | Icon color | `String` | `inherit` |
 | size | Icon size | `String` | `inherit` |
-| class-prefix | ClassName prefix | `String` | `zan-icon` |
+| class-prefix | ClassName prefix | `String` | `zvm-icon` |
 
 
 ### Event

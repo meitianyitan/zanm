@@ -1,5 +1,5 @@
 @import '../mixins/ellipsis.css';
 
-.zan-ellipsis {
+.zvm-ellipsis {
   @include ellipsis;
 }

@@ -1,6 +1,6 @@
 @import './common/var.css';
 
-.zan-switch {
+.zvm-switch {
   height: 1em;
   width: 1.6em;
   display: inline-block;
@@ -33,7 +33,7 @@
   &--on {
     background-color: #44db5e;
 
-    .zan-switch__node {
+    .zvm-switch__node {
       transform: translateX(.6em);
     }
   }

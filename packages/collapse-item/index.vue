@@ -1,5 +1,5 @@
 <template>
-  <div :class="[b(), { 'zan-hairline--top': index }]">
+  <div :class="[b(), { 'zvm-hairline--top': index }]">
     <cell
       v-bind="$props"
       :class="b('title', { disabled, expanded })"
@@ -78,7 +78,7 @@ export default create({
   },
 
   created() {
-    this.findParent('zan-collapse');
+    this.findParent('zvm-collapse');
     this.items.push(this);
     this.show = this.expanded;
     this.inited = this.expanded;

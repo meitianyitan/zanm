@@ -1,60 +1,60 @@
 <template>
   <demo-section>
     <demo-block :title="$t('basicUsage')">
-      <zan-row>
-        <zan-col span="8">span: 8</zan-col>
-        <zan-col span="8">span: 8</zan-col>
-        <zan-col span="8">span: 8</zan-col>
-      </zan-row>
+      <zvm-row>
+        <zvm-col span="8">span: 8</zvm-col>
+        <zvm-col span="8">span: 8</zvm-col>
+        <zvm-col span="8">span: 8</zvm-col>
+      </zvm-row>
 
-      <zan-row>
-        <zan-col span="4">span: 4</zan-col>
-        <zan-col span="10" offset="4">offset: 4, span: 10</zan-col>
-      </zan-row>
+      <zvm-row>
+        <zvm-col span="4">span: 4</zvm-col>
+        <zvm-col span="10" offset="4">offset: 4, span: 10</zvm-col>
+      </zvm-row>
 
-      <zan-row>
-        <zan-col offset="12" span="12">offset: 12, span: 12</zan-col>
-      </zan-row>
+      <zvm-row>
+        <zvm-col offset="12" span="12">offset: 12, span: 12</zvm-col>
+      </zvm-row>
     </demo-block>
 
     <demo-block :title="$t('title2')">
-      <zan-row gutter="20">
-        <zan-col span="8">span: 8</zan-col>
-        <zan-col span="8">span: 8</zan-col>
-        <zan-col span="8">span: 8</zan-col>
-      </zan-row>
+      <zvm-row gutter="20">
+        <zvm-col span="8">span: 8</zvm-col>
+        <zvm-col span="8">span: 8</zvm-col>
+        <zvm-col span="8">span: 8</zvm-col>
+      </zvm-row>
     </demo-block>
 
     <demo-block :title="$t('title3')">
-      <zan-row type="flex">
-        <zan-col span="6">span: 6</zan-col>
-        <zan-col span="6">span: 6</zan-col>
-        <zan-col span="6">span: 6</zan-col>
-      </zan-row>
+      <zvm-row type="flex">
+        <zvm-col span="6">span: 6</zvm-col>
+        <zvm-col span="6">span: 6</zvm-col>
+        <zvm-col span="6">span: 6</zvm-col>
+      </zvm-row>
 
-      <zan-row type="flex" justify="center">
-        <zan-col span="6">span: 6</zan-col>
-        <zan-col span="6">span: 6</zan-col>
-        <zan-col span="6">span: 6</zan-col>
-      </zan-row>
+      <zvm-row type="flex" justify="center">
+        <zvm-col span="6">span: 6</zvm-col>
+        <zvm-col span="6">span: 6</zvm-col>
+        <zvm-col span="6">span: 6</zvm-col>
+      </zvm-row>
 
-      <zan-row type="flex" justify="end">
-        <zan-col span="6">span: 6</zan-col>
-        <zan-col span="6">span: 6</zan-col>
-        <zan-col span="6">span: 6</zan-col>
-      </zan-row>
+      <zvm-row type="flex" justify="end">
+        <zvm-col span="6">span: 6</zvm-col>
+        <zvm-col span="6">span: 6</zvm-col>
+        <zvm-col span="6">span: 6</zvm-col>
+      </zvm-row>
 
-      <zan-row type="flex" justify="space-between">
-        <zan-col span="6">span: 6</zan-col>
-        <zan-col span="6">span: 6</zan-col>
-        <zan-col span="6">span: 6</zan-col>
-      </zan-row>
+      <zvm-row type="flex" justify="space-between">
+        <zvm-col span="6">span: 6</zvm-col>
+        <zvm-col span="6">span: 6</zvm-col>
+        <zvm-col span="6">span: 6</zvm-col>
+      </zvm-row>
 
-      <zan-row type="flex" justify="space-around">
-        <zan-col span="6">span: 6</zan-col>
-        <zan-col span="6">span: 6</zan-col>
-        <zan-col span="6">span: 6</zan-col>
-      </zan-row>
+      <zvm-row type="flex" justify="space-around">
+        <zvm-col span="6">span: 6</zvm-col>
+        <zvm-col span="6">span: 6</zvm-col>
+        <zvm-col span="6">span: 6</zvm-col>
+      </zvm-row>
     </demo-block>
   </demo-section>
 </template>
@@ -76,15 +76,15 @@ export default {
 
 <style lang="postcss">
 .demo-col {
-  .zan-doc-demo-block {
+  .zvm-doc-demo-block {
     padding: 0 15px;
   }
 
-  .zan-doc-demo-block__title {
+  .zvm-doc-demo-block__title {
     padding-left: 0;
   }
 
-  .zan-col {
+  .zvm-col {
     color: #fff;
     font-size: 13px;
     line-height: 30px;

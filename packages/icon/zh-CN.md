@@ -14,7 +14,7 @@ Vue.use(Icon);
 设置`name`属性为对应的图标名称即可，所有可用的图标名称见右侧列表
 
 ```html
-<zan-icon name="success" />
+<zvm-icon name="success" />
 ```
 
 #### 使用本地字体文件
@@ -35,17 +35,17 @@ import 'zanm/lib/zanm-css/icon-local.css';
   src: url('./iconfont.ttf') format('truetype');
 }
 
-.zan-icon {
+.zvm-icon {
   font-family: 'zanm-icon', 'custom-iconfont' !important;
 }
 
-.zan-icon-extra:before {
+.zvm-icon-extra:before {
   content: '\e626';
 }
 ```
 
 ```html
-<zan-icon name="extra" />
+<zvm-icon name="extra" />
 ```
 
 ### API
@@ -56,7 +56,7 @@ import 'zanm/lib/zanm-css/icon-local.css';
 | info | 图标右上角文字提示 | `String | Number` | - |
 | color | 图标颜色 | `String` | `inherit` |
 | size | 图标大小，如 `20px`，`2em` | `String` | `inherit` |
-| class-prefix | 类名前缀 | `String` | `zan-icon` |
+| class-prefix | 类名前缀 | `String` | `zvm-icon` |
 
 ### Event
 

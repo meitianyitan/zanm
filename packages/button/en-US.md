@@ -12,47 +12,47 @@ Vue.use(Button);
 #### Type
 
 ```html
-<zan-button type="primary">Primary</zan-button>
-<zan-button type="danger">Danger</zan-button>
-<zan-button type="default">Default</zan-button>
-<zan-button type="warning">Warning</zan-button>
+<zvm-button type="primary">Primary</zvm-button>
+<zvm-button type="danger">Danger</zvm-button>
+<zvm-button type="default">Default</zvm-button>
+<zvm-button type="warning">Warning</zvm-button>
 ```
 
 #### Plain
 
 ```html
-<zan-button plain type="primary">Primary</zan-button>
-<zan-button plain type="danger">Danger</zan-button>
+<zvm-button plain type="primary">Primary</zvm-button>
+<zvm-button plain type="danger">Danger</zvm-button>
 ```
 
 #### Disabled
 
 ```html
-<zan-button disabled type="primary">Diabled</zan-button>
-<zan-button disabled type="danger">Diabled</zan-button>
+<zvm-button disabled type="primary">Diabled</zvm-button>
+<zvm-button disabled type="danger">Diabled</zvm-button>
 ```
 
 #### Loading
 
 ```html 
-<zan-button loading type="primary" />
-<zan-button loading type="primary" />
+<zvm-button loading type="primary" />
+<zvm-button loading type="primary" />
 ```
 
 #### Shape
 
 ```html 
-<zan-button square type="primary">Square</zan-button>
-<zan-button round type="danger">Round</zan-button>
+<zvm-button square type="primary">Square</zvm-button>
+<zvm-button round type="danger">Round</zvm-button>
 ```
 
 #### Size
 
 ```html 
-<zan-button size="large">Large</zan-button>
-<zan-button size="normal">Normal</zan-button>
-<zan-button size="small">Small</zan-button>
-<zan-button size="mini">Mini</zan-button>
+<zvm-button size="large">Large</zvm-button>
+<zvm-button size="normal">Normal</zvm-button>
+<zvm-button size="small">Small</zvm-button>
+<zvm-button size="mini">Mini</zvm-button>
 ```
 
 ### API

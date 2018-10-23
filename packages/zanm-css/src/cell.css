@@ -1,7 +1,7 @@
 @import './common/var.css';
 @import "./mixins/hairline.css";
 
-.zan-cell {
+.zvm-cell {
   width: 100%;
   display: flex;
   padding: 10px 15px;

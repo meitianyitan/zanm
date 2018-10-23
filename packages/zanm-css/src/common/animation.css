@@ -1,16 +1,16 @@
-@keyframes zan-slide-bottom-enter {
+@keyframes zvm-slide-bottom-enter {
   from {
     transform: translate3d(0, 100%, 0);
   }
 }
 
-@keyframes zan-slide-bottom-leave {
+@keyframes zvm-slide-bottom-leave {
   to {
     transform: translate3d(0, 100%, 0);
   }
 }
 
-@keyframes zan-fade-in {
+@keyframes zvm-fade-in {
   from {
     opacity: 0;
   }
@@ -20,7 +20,7 @@
   }
 }
 
-@keyframes zan-fade-out {
+@keyframes zvm-fade-out {
   from {
     opacity: 1;
   }
@@ -30,7 +30,7 @@
   }
 }
 
-@keyframes zan-rotate {
+@keyframes zvm-rotate {
   from {
     transform: rotate(0deg);
   }
@@ -40,22 +40,22 @@
   }
 }
 
-.zan-fade {
+.zvm-fade {
   &-enter-active {
-    animation: .3s zan-fade-in;
+    animation: .3s zvm-fade-in;
   }
 
   &-leave-active {
-    animation: .3s zan-fade-out;
+    animation: .3s zvm-fade-out;
   }
 }
 
-.zan-slide-bottom {
+.zvm-slide-bottom {
   &-enter-active {
-    animation: zan-slide-bottom-enter .3s both ease;
+    animation: zvm-slide-bottom-enter .3s both ease;
   }
 
   &-leave-active {
-    animation: zan-slide-bottom-leave .3s both ease;
+    animation: zvm-slide-bottom-leave .3s both ease;
   }
 }

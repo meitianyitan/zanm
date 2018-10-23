@@ -1,8 +1,8 @@
 <template>
-  <transition name="zan-fade">
+  <transition name="zvm-fade">
     <div
       v-show="visible"
-      class="zan-modal"
+      class="zvm-modal"
       :class="className"
       :style="style"
       @touchmove.prevent.stop

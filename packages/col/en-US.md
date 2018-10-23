@@ -1,6 +1,6 @@
 ## Layout
 
-Quickly and easily create layouts with `zan-row` and `zan-col`
+Quickly and easily create layouts with `zvm-row` and `zvm-col`
 
 ### Install
 ``` javascript
@@ -17,21 +17,21 @@ Layout are based on 24-column. The attribute `span` in `Col` means the number of
 
 
 ```html
-<zan-row>
-  <zan-col span="8">span: 8</zan-col>
-  <zan-col span="8">span: 8</zan-col>
-  <zan-col span="8">span: 8</zan-col>
-</zan-row>
+<zvm-row>
+  <zvm-col span="8">span: 8</zvm-col>
+  <zvm-col span="8">span: 8</zvm-col>
+  <zvm-col span="8">span: 8</zvm-col>
+</zvm-row>
 
-<zan-row>
-  <zan-col span="4">span: 4</zan-col>
-  <zan-col span="10" offset="4">offset: 4, span: 10</zan-col>
-  <zan-col span="6">span: 6</zan-col>
-</zan-row>
+<zvm-row>
+  <zvm-col span="4">span: 4</zvm-col>
+  <zvm-col span="10" offset="4">offset: 4, span: 10</zvm-col>
+  <zvm-col span="6">span: 6</zvm-col>
+</zvm-row>
 
-<zan-row>
-  <zan-col offset="12" span="12">offset: 12, span: 12</zan-col>
-</zan-row>
+<zvm-row>
+  <zvm-col offset="12" span="12">offset: 12, span: 12</zvm-col>
+</zvm-row>
 ```
 
 
@@ -41,11 +41,11 @@ Set grid spacing using `gutter` attribute. The default value is 0
 
 
 ```html
-<zan-row gutter="20">
-  <zan-col span="8">span: 8</zan-col>
-  <zan-col span="8">span: 8</zan-col>
-  <zan-col span="8">span: 8</zan-col>
-</zan-row>
+<zvm-row gutter="20">
+  <zvm-col span="8">span: 8</zvm-col>
+  <zvm-col span="8">span: 8</zvm-col>
+  <zvm-col span="8">span: 8</zvm-col>
+</zvm-row>
 ```
 
 #### Flex Layout
@@ -53,35 +53,35 @@ Set grid spacing using `gutter` attribute. The default value is 0
 Setting `type` to `flex` to enable flex layout
 
 ```html
-<zan-row type="flex">
-  <zan-col span="6">span: 6</zan-col>
-  <zan-col span="6">span: 6</zan-col>
-  <zan-col span="6">span: 6</zan-col>
-</zan-row>
+<zvm-row type="flex">
+  <zvm-col span="6">span: 6</zvm-col>
+  <zvm-col span="6">span: 6</zvm-col>
+  <zvm-col span="6">span: 6</zvm-col>
+</zvm-row>
 
-<zan-row type="flex" justify="center">
-  <zan-col span="6">span: 6</zan-col>
-  <zan-col span="6">span: 6</zan-col>
-  <zan-col span="6">span: 6</zan-col>
-</zan-row>
+<zvm-row type="flex" justify="center">
+  <zvm-col span="6">span: 6</zvm-col>
+  <zvm-col span="6">span: 6</zvm-col>
+  <zvm-col span="6">span: 6</zvm-col>
+</zvm-row>
 
-<zan-row type="flex" justify="end">
-  <zan-col span="6">span: 6</zan-col>
-  <zan-col span="6">span: 6</zan-col>
-  <zan-col span="6">span: 6</zan-col>
-</zan-row>
+<zvm-row type="flex" justify="end">
+  <zvm-col span="6">span: 6</zvm-col>
+  <zvm-col span="6">span: 6</zvm-col>
+  <zvm-col span="6">span: 6</zvm-col>
+</zvm-row>
 
-<zan-row type="flex" justify="space-between">
-  <zan-col span="6">span: 6</zan-col>
-  <zan-col span="6">span: 6</zan-col>
-  <zan-col span="6">span: 6</zan-col>
-</zan-row>
+<zvm-row type="flex" justify="space-between">
+  <zvm-col span="6">span: 6</zvm-col>
+  <zvm-col span="6">span: 6</zvm-col>
+  <zvm-col span="6">span: 6</zvm-col>
+</zvm-row>
 
-<zan-row type="flex" justify="space-around">
-  <zan-col span="6">span: 6</zan-col>
-  <zan-col span="6">span: 6</zan-col>
-  <zan-col span="6">span: 6</zan-col>
-</zan-row>
+<zvm-row type="flex" justify="space-around">
+  <zvm-col span="6">span: 6</zvm-col>
+  <zvm-col span="6">span: 6</zvm-col>
+  <zvm-col span="6">span: 6</zvm-col>
+</zvm-row>
 ```
 
 

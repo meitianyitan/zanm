@@ -1,6 +1,6 @@
 <template>
   <cell center :title="title" :border="border" :class="b()">
-    <zan-switch v-bind="$props" @input="$emit('input', $event)" />
+    <zvm-switch v-bind="$props" @input="$emit('input', $event)" />
   </cell>
 </template>
 

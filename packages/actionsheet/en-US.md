@@ -13,7 +13,7 @@ Vue.use(Actionsheet);
 Use `actions` prop to set options of actionsheet. 
 
 ```html
-<zan-actionsheet
+<zvm-actionsheet
   v-model="show"
   :actions="actions"
   @select="onSelect"
@@ -56,7 +56,7 @@ export default {
 #### Actionsheet with cancel button
 
 ```html
-<zan-actionsheet
+<zvm-actionsheet
   v-model="show"
   :actions="actions"
   cancel-text="Cancel"
@@ -69,9 +69,9 @@ export default {
 Actionsheet will get another style if there is a `title` prop.
 
 ```html
-<zan-actionsheet v-model="show" title="Title">
+<zvm-actionsheet v-model="show" title="Title">
   <p>Content</p>
-</zan-actionsheet>
+</zvm-actionsheet>
 ```
 
 ### API

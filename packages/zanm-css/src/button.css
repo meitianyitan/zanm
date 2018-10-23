@@ -1,6 +1,6 @@
 @import './common/var.css';
 
-.zan-button {
+.zvm-button {
   position: relative;
   padding: 0;
   display: inline-block;
@@ -63,15 +63,15 @@
   &--plain {
     background-color: $white;
 
-    &.zan-button--primary {
+    &.zvm-button--primary {
       color: $button-primary-background-color;
     }
 
-    &.zan-button--danger {
+    &.zvm-button--danger {
       color: $button-danger-background-color;
     }
 
-    &.zan-button--warning {
+    &.zvm-button--warning {
       color: $button-warning-background-color;
     }
   }
@@ -96,7 +96,7 @@
   }
 
   &--loading {
-    .zan-loading {
+    .zvm-loading {
       display: inline-block;
     }
   }
@@ -109,7 +109,7 @@
     line-height: 20px;
     font-size: 10px;
 
-    & + .zan-button--mini {
+    & + .zvm-button--mini {
       margin-left: 5px;
     }
   }
@@ -129,7 +129,7 @@
     color: $button-bottom-action-default-color;
     background-color: $button-bottom-action-default-background-color;
 
-    &.zan-button--primary {
+    &.zvm-button--primary {
       background-color: $button-bottom-action-primary-background-color;
     }
   }

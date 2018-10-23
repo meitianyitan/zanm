@@ -1,7 +1,7 @@
 <template>
   <i :class="[classPrefix, `${classPrefix}-${name}`]" :style="style" v-on="$listeners">
     <slot />
-    <zan-info :info="info" />
+    <zvm-info :info="info" />
   </i>
 </template>
 

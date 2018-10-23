@@ -13,17 +13,17 @@ Vue.use(Button);
 支持`default`、`primary`、`warning`、`danger`四种类型，默认为`default`
 
 ```html
-<zan-button type="default">默认按钮</zan-button>
-<zan-button type="primary">主要按钮</zan-button>
-<zan-button type="warning">警告按钮</zan-button>
-<zan-button type="danger">危险按钮</zan-button>
+<zvm-button type="default">默认按钮</zvm-button>
+<zvm-button type="primary">主要按钮</zvm-button>
+<zvm-button type="warning">警告按钮</zvm-button>
+<zvm-button type="danger">危险按钮</zvm-button>
 ```
 
 #### 朴素按钮
 
 ```html
-<zan-button plain type="primary">朴素按钮</zan-button>
-<zan-button plain type="danger">朴素按钮</zan-button>
+<zvm-button plain type="primary">朴素按钮</zvm-button>
+<zvm-button plain type="danger">朴素按钮</zvm-button>
 ```
 
 #### 禁用状态
@@ -31,32 +31,32 @@ Vue.use(Button);
 通过`disabled`属性来禁用按钮，此时按钮不可点击
 
 ```html
-<zan-button disabled type="primary">禁用状态</zan-button>
-<zan-button disabled type="danger">禁用状态</zan-button>
+<zvm-button disabled type="primary">禁用状态</zvm-button>
+<zvm-button disabled type="danger">禁用状态</zvm-button>
 ```
 
 #### 加载状态
 
 ```html 
-<zan-button loading type="primary" />
-<zan-button loading type="danger" />
+<zvm-button loading type="primary" />
+<zvm-button loading type="danger" />
 ```
 
 #### 按钮形状
 
 ```html 
-<zan-button square type="primary">方形按钮</zan-button>
-<zan-button round type="danger">圆形按钮</zan-button>
+<zvm-button square type="primary">方形按钮</zvm-button>
+<zvm-button round type="danger">圆形按钮</zvm-button>
 ```
 
 #### 按钮尺寸
 支持`large`、`normal`、`small`、`mini`四种尺寸，默认为`normal`
 
 ```html 
-<zan-button size="large">大号按钮</zan-button>
-<zan-button size="normal">普通按钮</zan-button>
-<zan-button size="small">小型按钮</zan-button>
-<zan-button size="mini">迷你按钮</zan-button>
+<zvm-button size="large">大号按钮</zvm-button>
+<zvm-button size="normal">普通按钮</zvm-button>
+<zvm-button size="small">小型按钮</zvm-button>
+<zvm-button size="mini">迷你按钮</zvm-button>
 ```
 
 
