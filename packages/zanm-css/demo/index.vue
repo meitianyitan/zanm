@@ -50,7 +50,7 @@ export default {
 };
 </script>
 
-<style lang="postcss">
+<style lang="less">
 .demo-zanm-css {
   .zvm-ellipsis {
     font-size: 13px;

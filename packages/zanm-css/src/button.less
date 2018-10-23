@@ -1,6 +1,6 @@
-@import './common/var.css';
+@import './common/var.less';
 
-.zvm-button {
+.@{css-prefix}button {
   position: relative;
   padding: 0;
   display: inline-block;
@@ -22,8 +22,8 @@
     width: 100%;
     height: 100%;
     border: inherit;
-    border-color: $black;
-    background-color: $black;
+    border-color: @black;
+    background-color: @black;
     border-radius: inherit; /* inherit parent's border radius */
     transform: translate(-50%, -50%);
   }
@@ -37,42 +37,42 @@
   }
 
   &--default {
-    color: $button-default-color;
-    background-color: $button-default-background-color;
-    border: 1px solid $button-default-border-color;
+    color: @button-default-color;
+    background-color: @button-default-background-color;
+    border: 1px solid @button-default-border-color;
   }
 
   &--primary {
-    color: $button-primary-color;
-    background-color: $button-primary-background-color;
-    border: 1px solid $button-primary-border-color;
+    color: @button-primary-color;
+    background-color: @button-primary-background-color;
+    border: 1px solid @button-primary-border-color;
   }
 
   &--danger {
-    color: $button-danger-color;
-    background-color: $button-danger-background-color;
-    border: 1px solid $button-danger-border-color;
+    color: @button-danger-color;
+    background-color: @button-danger-background-color;
+    border: 1px solid @button-danger-border-color;
   }
 
   &--warning {
-    color: $button-warning-color;
-    background-color: $button-warning-background-color;
-    border: 1px solid $button-warning-border-color;
+    color: @button-warning-color;
+    background-color: @button-warning-background-color;
+    border: 1px solid @button-warning-border-color;
   }
 
   &--plain {
-    background-color: $white;
+    background-color: @white;
 
     &.zvm-button--primary {
-      color: $button-primary-background-color;
+      color: @button-primary-background-color;
     }
 
     &.zvm-button--danger {
-      color: $button-danger-background-color;
+      color: @button-danger-background-color;
     }
 
     &.zvm-button--warning {
-      color: $button-warning-background-color;
+      color: @button-warning-background-color;
     }
   }
 
@@ -126,11 +126,11 @@
     border: 0;
     border-radius: 0;
     font-size: 16px;
-    color: $button-bottom-action-default-color;
-    background-color: $button-bottom-action-default-background-color;
+    color: @button-bottom-action-default-color;
+    background-color: @button-bottom-action-default-background-color;
 
     &.zvm-button--primary {
-      background-color: $button-bottom-action-primary-background-color;
+      background-color: @button-bottom-action-primary-background-color;
     }
   }
 

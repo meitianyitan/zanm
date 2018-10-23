@@ -1,5 +1,5 @@
-@import './common/var.css';
-@import "./mixins/hairline.css";
+@import './common/var.less';
+@import "./mixins/hairline.less";
 
 .zvm-cell {
   width: 100%;
@@ -8,13 +8,13 @@
   box-sizing: border-box;
   line-height: 24px;
   position: relative;
-  background-color: $white;
-  color: $text-color;
+  background-color: @white;
+  color: @text-color;
   font-size: 14px;
   overflow: hidden;
 
   &:not(:last-child)::after {
-    @include hairline-bottom($border-color, 15px);
+    .hairline-bottom(@border-color, 15px);
   }
 
   &--borderless::after {
@@ -22,13 +22,13 @@
   }
 
   &-group {
-    background-color: $white;
+    background-color: @white;
   }
 
   &__label {
     font-size: 12px;
     line-height: 1.2;
-    color: $gray-darker;
+    color: @gray-darker;
   }
 
   &__title,
@@ -55,7 +55,7 @@
   }
 
   &__right-icon {
-    color: $gray-dark;
+    color: @gray-dark;
     font-size: 12px;
     line-height: 24px;
     margin-left: 5px;
@@ -75,7 +75,7 @@
 
   &--clickable {
     &:active {
-      background-color: $active-color;
+      background-color: @active-color;
     }
   }
 
@@ -87,7 +87,7 @@
       position: absolute;
       left: 7px;
       font-size: 14px;
-      color: $red;
+      color: @red;
     }
   }
 

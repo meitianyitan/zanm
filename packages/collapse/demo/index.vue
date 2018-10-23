@@ -65,18 +65,18 @@ export default {
 };
 </script>
 
-<style lang="postcss">
-@import "../../../packages/zanm-css/src/common/var.css";
+<style lang="less">
+@import "../../../packages/zanm-css/src/common/var.less";
 
 .demo-collapse {
   .zvm-collapse-item__content {
     font-size: 13px;
     line-height: 1.5;
-    color: $gray-darker;
+    color: @gray-darker;
   }
 
   .zvm-icon-question {
-    color: $blue;
+    color: @blue;
     vertical-align: -3px;
     margin-left: 5px;
     font-size: 15px;

@@ -1,12 +1,12 @@
-@mixin multi-ellipsis($lines) {
+.multi-ellipsis(@lines) {
   overflow: hidden;
   text-overflow: ellipsis;
   display: -webkit-box;
-  -webkit-line-clamp: $lines;
+  -webkit-line-clamp: @lines;
   -webkit-box-orient: vertical;
 }
 
-@mixin ellipsis {
+.ellipsis() {
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;

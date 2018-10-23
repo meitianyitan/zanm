@@ -1,4 +1,4 @@
-@import './common/var.css';
+@import './common/var.less';
 
 .zvm-nav-bar {
   height: 46px;
@@ -6,10 +6,10 @@
   user-select: none;
   text-align: center;
   line-height: 46px;
-  background-color: $white;
+  background-color: @white;
 
   .zvm-icon {
-    color: $blue;
+    color: @blue;
     vertical-align: middle;
   }
 
@@ -52,14 +52,14 @@
   }
 
   &__text {
-    color: $blue;
+    color: @blue;
     margin: 0 -15px;
     padding: 0 15px;
     display: inline-block;
     vertical-align: middle;
 
     &:active {
-      background-color: $active-color;
+      background-color: @active-color;
     }
   }
 }

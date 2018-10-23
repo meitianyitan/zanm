@@ -1,4 +1,4 @@
-@import './common/var.css';
+@import './common/var.less';
 
 .zvm-loading {
   width: 30px;
@@ -26,8 +26,8 @@
     &--circle {
       border-radius: 100%;
       border: 3px solid transparent;
-      border-color: $gray;
-      border-top-color: $gray-darker;
+      border-color: @gray;
+      border-top-color: @gray-darker;
     }
 
     &--gradient-circle {
@@ -103,9 +103,15 @@
   }
 }
 
-@for $i from 1 to 12 {
-  .zvm-loading__spinner--spinner i:nth-of-type($i) {
-    opacity: calc(1 - (0.75 / 12) * ($i - 1));
-    transform: rotate(calc($i * 30deg));
+.loading-loop(@count) when(@count > 0) {
+  i:nth-of-type(@{count}) {
+    opacity: calc(1 - (0.75 / 12) * (@count - 1));
+    transform: rotate(calc(@count * 30deg));
   }
+  .loading-loop((@count - 1));
 }
+
+.zvm-loading__spinner--spinner {
+  .loading-loop(12);
+}
+

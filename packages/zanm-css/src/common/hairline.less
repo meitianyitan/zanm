@@ -1,14 +1,14 @@
-@import "../mixins/hairline.css";
+@import "../mixins/hairline.less";
 
 [class*='zvm-hairline'] {
   position: relative;
 
   &::after {
-    @include hairline;
+    .hairline();
   }
 }
 
-.zvm-hairline {
+.@{css-prefix}hairline {
   &--top::after {
     border-top-width: 1px;
   }

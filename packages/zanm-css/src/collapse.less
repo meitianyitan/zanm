@@ -1,4 +1,4 @@
-@import './common/var.css';
+@import './common/var.less';
 
 .zvm-collapse-item {
   &__title {
@@ -24,11 +24,11 @@
     &--disabled {
       &,
       & .zvm-cell__right-icon {
-        color: $gray;
+        color: @gray;
       }
 
       &:active {
-        background-color: $white;
+        background-color: @white;
       }
     }
   }
@@ -41,6 +41,6 @@
 
   &__content {
     padding: 15px;
-    background-color: $white;
+    background-color: @white;
   }
 }

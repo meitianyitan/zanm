@@ -1,4 +1,4 @@
-import '../../packages/zanm-css/src/index.css';
+import '../../packages/zanm-css/src/index.less';
 import Vue from 'vue';
 import VueRouter from 'vue-router';
 import App from './WapApp';

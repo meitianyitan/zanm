@@ -81,7 +81,7 @@ export default {
 };
 </script>
 
-<style lang="postcss">
+<style lang="less">
 .demo-actionsheet {
   .zvm-button {
     margin-left: 15px;

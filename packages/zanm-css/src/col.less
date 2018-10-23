@@ -1,0 +1,18 @@
+@import './common/var.less';
+
+.zvm-col {
+  float: left;
+  box-sizing: border-box;
+}
+
+.col-loop(@count) when(@count > 0) {
+  .zvm-col--@{count} {
+    width: calc(@count * 100% / 24);
+  }
+  .zvm-col--offset-@{count} {
+    margin-left: calc(@count * 100% / 24);
+  }
+  .col-loop((@count - 1));
+}
+
+.col-loop(24);

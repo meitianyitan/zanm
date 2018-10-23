@@ -371,7 +371,3 @@ export default create({
   name: 'button'
 });
 ```
-
-#### **Style**
-
-The component style uses `precss 3.0` as the preprocessor, the specific syntax refer to [precss 文档](https://github.com/jonathantneal/precss).
