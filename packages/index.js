@@ -39,7 +39,6 @@ const components = [
 
 const install = Vue => {
   if (install.installed) return;
-
   components.forEach(Component => {
     Vue.use(Component);
   });
