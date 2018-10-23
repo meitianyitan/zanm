@@ -17,7 +17,7 @@ import SwipeCell from './swipe-cell';
 import Switch from './switch';
 import SwitchCell from './switch-cell';
 
-const version = '0.0.7';
+const version = '0.0.8';
 const components = [
   Actionsheet,
   Button,

@@ -1,6 +1,6 @@
 {
   "name": "zanm-css",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "zanm css",
   "main": "lib/index.css",
   "style": "lib/index.css",
