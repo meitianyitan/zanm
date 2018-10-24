@@ -9657,9 +9657,9 @@ ylru@^1.2.0:
   version "1.2.1"
   resolved "http://registry.npm.taobao.org/ylru/download/ylru-1.2.1.tgz#f576b63341547989c1de7ba288760923b27fe84f"
 
-zanm-doc@^0.1.4:
-  version "0.1.4"
-  resolved "http://registry.npm.taobao.org/zanm-doc/download/zanm-doc-0.1.4.tgz#feace09227472f6878fd374e190e4d40b04c4302"
+zanm-doc@^0.1.6:
+  version "0.1.6"
+  resolved "http://registry.npm.taobao.org/zanm-doc/download/zanm-doc-0.1.6.tgz#ea9808e133b0dedf9c39458c842e18124369d117"
   dependencies:
     cheerio "^1.0.0-rc.2"
     commander "^2.19.0"
