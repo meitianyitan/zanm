@@ -296,8 +296,8 @@ packages
 |  ├─ en-US.md    # English documents
 |  └─ index.vue   # Component entry
 └─ zanm-css
-   ├─ index.css   # Style entry
-   └─ button.css  # Component style
+   ├─ index.less   # Style entry
+   └─ button.less  # Component style
 ```
 
 #### **Component documentation**

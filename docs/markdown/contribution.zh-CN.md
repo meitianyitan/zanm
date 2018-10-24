@@ -296,8 +296,8 @@ packages
 |  ├─ en-US.md    # 英文文档
 |  └─ index.vue   # 组件入口
 └─ zanm-css
-   ├─ index.css   # 样式入口
-   └─ button.css  # 组件样式
+   ├─ index.less   # 样式入口
+   └─ button.less  # 组件样式
 ```
 
 #### **组件文档**

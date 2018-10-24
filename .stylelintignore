@@ -2,4 +2,4 @@ test
 es
 lib
 dist
-packages/icon/config/template.css
+packages/icon/config/template.less

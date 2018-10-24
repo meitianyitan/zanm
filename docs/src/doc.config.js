@@ -55,8 +55,8 @@ module.exports = {
                 title: '贡献指南'
               },
               {
-                path: '/demo',
-                title: '示例页面'
+                path: '/case',
+                title: '实践案例'
               },
             ]
           }
@@ -136,8 +136,8 @@ module.exports = {
                 title: 'Contributing'
               },
               {
-                path: '/demo',
-                title: 'Demo pages'
+                path: '/case',
+                title: 'Case pages'
               },
             ]
           }

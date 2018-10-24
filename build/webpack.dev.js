@@ -33,7 +33,7 @@ module.exports = {
     }
   },
   resolve: {
-    extensions: ['.js', '.vue', '.css'],
+    extensions: ['.js', '.vue', '.css', '.less'],
     alias: {
       packages: path.join(__dirname, '../packages')
     }

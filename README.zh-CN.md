@@ -91,7 +91,7 @@ npm i ts-import-plugin -D
 // vue.config.js
 const tsImportPluginFactory = require('ts-import-plugin');
 module.exports = {
-  parellel: false,
+  parallel: false,
   lintOnSave: false,
   configureWebpack: {
     module: {
