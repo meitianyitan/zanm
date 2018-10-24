@@ -1,6 +1,6 @@
 {
   "name": "zanm",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "A Mobile UI for Vue.js 2.0",
   "keywords": [
     "vue",
@@ -131,7 +131,7 @@
     "webpack": "^4.20.2",
     "webpack-cli": "^3.1.2",
     "webpack-serve": "^2.0.2",
-    "zanm-doc": "^0.1.6"
+    "zanm-doc": "^0.1.7"
   },
   "config": {
     "commitizen": {
