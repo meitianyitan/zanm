@@ -159,7 +159,7 @@ Vue.use(Zanm);
 ## 手机预览
 可以手机扫码以下二维码访问手机端 demo：
 
-<img src="http://static.sosout.com/images/preview_qrcode_20181023.png" width="220" height="220" />
+<img src="http://static.sosout.com/images/preview_qrcode_20181025.png" width="220" height="220" />
 
 ## 开源协议
 
