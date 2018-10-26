@@ -6,18 +6,24 @@ const fs = require('fs-extra');
 const path = require('path');
 const components = require('./get-components');
 const dependencyTree = require('dependency-tree');
-const whiteList = ['info', 'icon', 'loading', 'cell', 'button'];
+const whiteList = ['info', 'icon', 'loading', 'cell'];
 const dir = path.join(__dirname, '../es');
 
 components.forEach(component => {
   const deps = analyzeDependencies(component);
-  const esEntry = path.join(dir, component, 'style/index.js');
-  const libEntry = path.join(__dirname, '../lib', component, 'style/index.js');
-  const esContent = deps.map(dep => `import '../../zanm-css/${dep}.css';`).join('\n');
-  const libContent = deps.map(dep => `require('../../zanm-css/${dep}.css');`).join('\n');
+  const esLessEntry = path.join(dir, component, 'style/index.js');
+  const libLessEntry = path.join(__dirname, '../lib', component, 'style/index.js');
+  const esLessContent = deps.map(dep => `import '../../zanm-less/${dep}.less';`).join('\n');
+  const libLessContent = deps.map(dep => `require('../../zanm-less/${dep}.less');`).join('\n');
+  const esCssEntry = path.join(dir, component, 'style/css.js');
+  const libCssEntry = path.join(__dirname, '../lib', component, 'style/css.js');
+  const esCssContent = deps.map(dep => `import '../../zanm-css/${dep}.css';`).join('\n');
+  const libCssContent = deps.map(dep => `require('../../zanm-css/${dep}.css');`).join('\n');
 
-  fs.outputFileSync(esEntry, esContent);
-  fs.outputFileSync(libEntry, libContent);
+  fs.outputFileSync(esLessEntry, esLessContent);
+  fs.outputFileSync(libLessEntry, libLessContent);
+  fs.outputFileSync(esCssEntry, esCssContent);
+  fs.outputFileSync(libCssEntry, libCssContent);
 });
 
 // analyze component dependencies

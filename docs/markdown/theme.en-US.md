@@ -2,7 +2,8 @@
 
 Zanm allows you to customize some basic design aspects in order to meet the needs of UI diversity from business and brand, including primary color, border radius, border color, etc.
 
-### Option 1. PostCSS Plugin
+### 待实现
+<!-- ### Option 1. PostCSS Plugin
 You can import the postcss source code in your own project, then use [postcss-theme-variables](https://www.npmjs.com/package/postcss-theme-variables) to replace the postcss variable.
 
 ```javascript
@@ -51,4 +52,4 @@ cd packages/zanm-css
 In the local zanm-css repository, modify the variables in src/common/var.less, then execute the following build command to generate the style file.
 ```bash
 npm run build
-```
+``` -->

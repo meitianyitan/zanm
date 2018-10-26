@@ -1,7 +1,8 @@
 ## 定制主题
 `Zanm` 设计规范上支持一定程度的样式定制，以满足业务和品牌上多样化的视觉需求，包括但不限于主色、圆角、边框和部分组件的视觉定制。
 
-### 方案一. PostCSS 插件
+### 待实现
+<!-- ### 方案一. PostCSS 插件
 在项目中直接引入组件对应的 postcss 源代码，并通过 postcss 插件 [postcss-theme-variables](https://www.npmjs.com/package/postcss-theme-variables) 替换颜色变量，步骤如下：
 
 ```javascript
@@ -47,4 +48,4 @@ cd packages/zanm-css
 在本地 zanm-css 仓库中，修改 src/common/var.less 中的颜色变量，然后执行以下构建命令，即可生成对应的样式文件
 ```bash
 npm run build
-```
+``` -->
