@@ -16,7 +16,7 @@ const iconDir = path.join(__dirname, '../packages/icon');
 const cssDir = path.join(__dirname, '../packages/zanm-css/src');
 const svgDir = path.join(iconDir, 'svg');
 const sketch = path.join(iconDir, 'assets/icons.sketch');
-const template = path.join(iconDir, 'config/template.css');
+const template = path.join(iconDir, 'config/template.less');
 
 // get md5 from sketch
 const md5 = md5File.sync(sketch).slice(0, 6);
@@ -65,9 +65,9 @@ gulp.task('ttf', () => {
 });
 
 gulp.task('default', ['ttf'], () => {
-  // generate icon-local.css
+  // generate icon-local.less
   fs.writeFileSync(
-    path.join(cssDir, 'icon-local.css'),
+    path.join(cssDir, 'icon-local.less'),
     local(config.name, ttf)
   );
 

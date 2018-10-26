@@ -41,7 +41,7 @@
     "build:components": "node build/build-components.js --color",
     "build:zanm-css": "gulp build --gulpfile packages/zanm-css/gulpfile.js --color --silent",
     "build:zanm": "cross-env NODE_ENV=production webpack --color --config build/webpack.build.js && cross-env NODE_ENV=production webpack -p --color --config build/webpack.build.js",
-    "build:style-entry": "node build/build-style-entry.js",
+    "build:style": "node build/build-style.js",
     "build:changelog": "zanm-doc changelog ./changelog.generated.md",
     "build:iconfont": "gulp --gulpfile ./build/build-iconfont.js",
     "build:lib": "node build/build-lib.js",

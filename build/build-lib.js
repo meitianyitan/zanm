@@ -10,7 +10,7 @@ const tasks = [
   'build:entry',
   'build:components',
   'build:zanm-css',
-  'build:style-entry',
+  'build:style',
   'build:zanm'
 ];
 

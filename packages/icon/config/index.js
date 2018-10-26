@@ -1,5 +1,5 @@
 module.exports = {
-  name: 'zant-icon',
+  name: 'zvm-icon',
   glyphs: [
     {
       src: 'close.svg',

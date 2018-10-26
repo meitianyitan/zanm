@@ -4,7 +4,7 @@
 const fs = require('fs-extra');
 const path = require('path');
 const babel = require('@babel/core');
-const compiler = require('vue-sfc-compiler');
+const compilerVue = require('vue-sfc-compiler');
 
 const esDir = path.join(__dirname, '../es');
 const libDir = path.join(__dirname, '../lib');
@@ -30,7 +30,6 @@ function compile(dir, jsOnly = false) {
   const files = fs.readdirSync(dir);
   files.forEach(file => {
     const absolutePath = path.join(dir, file);
-
     // 删除不必要的文件
     if (whiteList.test(file)) {
       fs.removeSync(absolutePath);
@@ -46,7 +45,7 @@ function compile(dir, jsOnly = false) {
       const outputJsPath = absolutePath.replace('.vue', '.js');
       const output = fs.existsSync(outputJsPath) ? outputVuePath : outputJsPath;
 
-      fs.outputFileSync(output, compiler(source, compilerOption).js);
+      fs.outputFileSync(output, compilerVue(source, compilerOption).js);
     } else if (/\.js$/.test(file)) {
       const { code } = babel.transformFileSync(absolutePath, compilerOption.babel);
       fs.outputFileSync(absolutePath, code);

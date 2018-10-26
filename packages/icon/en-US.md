@@ -32,7 +32,7 @@ import 'zanm/lib/zanm-css/icon-local.css';
 }
 
 .zvm-icon {
-  font-family: 'zanm-icon', 'custom-iconfont' !important;
+  font-family: 'zvm-icon', 'custom-iconfont' !important;
 }
 
 .zvm-icon-extra:before {

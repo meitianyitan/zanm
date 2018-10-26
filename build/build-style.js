@@ -11,14 +11,16 @@ const dir = path.join(__dirname, '../es');
 
 components.forEach(component => {
   const deps = analyzeDependencies(component);
-  const esLessEntry = path.join(dir, component, 'style/index.js');
-  const libLessEntry = path.join(__dirname, '../lib', component, 'style/index.js');
-  const esLessContent = deps.map(dep => `import '../../zanm-less/${dep}.less';`).join('\n');
-  const libLessContent = deps.map(dep => `require('../../zanm-less/${dep}.less');`).join('\n');
-  const esCssEntry = path.join(dir, component, 'style/css.js');
-  const libCssEntry = path.join(__dirname, '../lib', component, 'style/css.js');
-  const esCssContent = deps.map(dep => `import '../../zanm-css/${dep}.css';`).join('\n');
-  const libCssContent = deps.map(dep => `require('../../zanm-css/${dep}.css');`).join('\n');
+
+  const esLessEntry = getEntry(component, 'es', 'less');
+  const libLessEntry = getEntry(component, 'lib', 'less');
+  const esCssEntry = getEntry(component, 'es', 'css');
+  const libCssEntry = getEntry(component, 'lib', 'css');
+
+  const esLessContent = getContent(deps, 'es', 'less');
+  const libLessContent = getContent(deps, 'lib', 'less');
+  const esCssContent = getContent(deps, 'es', 'css');
+  const libCssContent = getContent(deps, 'lib', 'css');
 
   fs.outputFileSync(esLessEntry, esLessContent);
   fs.outputFileSync(libLessEntry, libLessContent);
@@ -64,4 +66,17 @@ function checkComponentHasStyle(component) {
   return fs.existsSync(
     path.join(__dirname, `../es/zanm-css/`, `${component}.css`)
   );
+}
+
+// get css/less entry file of es/lib
+function getEntry(c, v, s) {
+  let entryFile = 'style/index.js';
+  if (s === 'css') entryFile = 'style/css.js';
+  return path.join(__dirname, `../${v}`, c, entryFile);
+}
+
+// get css/less content of es/lib
+function getContent(deps, v, s) {
+  if (v === 'es') return deps.map(dep => `import '../../zanm-${s}/${dep}.${s}';`).join('\n');
+  if (v === 'lib') return deps.map(dep => `require('../../zanm-${s}/${dep}.${s}');`).join('\n');
 }
