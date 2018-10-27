@@ -57,7 +57,7 @@ export default {
 </script>
 
 <style lang="less">
-@import '../../../packages/zanm-css/src/common/var.less';
+@import '../../../packages/zanm-css/src/themes/default.less';
 
 .side-nav {
   width: 100%;

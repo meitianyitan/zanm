@@ -31,7 +31,6 @@
   "files": [
     "es",
     "lib",
-    "packages",
     "types"
   ],
   "scripts": {

@@ -66,7 +66,7 @@ export default {
 </script>
 
 <style lang="less">
-@import "../../../packages/zanm-css/src/common/var.less";
+@import "../../../packages/zanm-css/src/themes/default.less";
 
 .demo-collapse {
   .zvm-collapse-item__content {
