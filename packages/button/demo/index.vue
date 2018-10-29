@@ -2,31 +2,32 @@
   <demo-section>
     <demo-block :title="$t('type')">
       <div class="demo-button-row">
+        <zvm-button type="default">{{ $t('default') }}</zvm-button>
         <zvm-button type="primary">{{ $t('primary') }}</zvm-button>
-        <zvm-button type="danger">{{ $t('danger') }}</zvm-button>
+        <zvm-button type="warning">{{ $t('warning') }}</zvm-button>
       </div>
-      <zvm-button type="default">{{ $t('default') }}</zvm-button>
-      <zvm-button type="warning">{{ $t('warning') }}</zvm-button>
+
+      <zvm-button type="error">{{ $t('error') }}</zvm-button>
     </demo-block>
 
     <demo-block :title="$t('plain')">
       <zvm-button plain type="primary">{{ $t('plain') }}</zvm-button>
-      <zvm-button plain type="danger">{{ $t('plain') }}</zvm-button>
+      <zvm-button plain type="error">{{ $t('plain') }}</zvm-button>
     </demo-block>
 
     <demo-block :title="$t('disabled')">
       <zvm-button disabled type="primary">{{ $t('disabled') }}</zvm-button>
-      <zvm-button disabled type="danger">{{ $t('disabled') }}</zvm-button>
+      <zvm-button disabled type="error">{{ $t('disabled') }}</zvm-button>
     </demo-block>
 
     <demo-block :title="$t('loading')">
       <zvm-button loading type="primary" />
-      <zvm-button loading type="danger" />
+      <zvm-button loading type="error" />
     </demo-block>
 
     <demo-block :title="$t('shape')">
       <zvm-button type="primary" square>{{ $t('square') }}</zvm-button>
-      <zvm-button type="danger" round>{{ $t('round') }}</zvm-button>
+      <zvm-button type="error" round>{{ $t('round') }}</zvm-button>
     </demo-block>
 
     <demo-block :title="$t('size')">
@@ -48,7 +49,7 @@ export default {
       shape: '按钮形状',
       default: '默认按钮',
       primary: '主要按钮',
-      danger: '危险按钮',
+      error: '错误按钮',
       warning: '警告按钮',
       large: '大号按钮',
       normal: '普通按钮',
@@ -65,7 +66,7 @@ export default {
       shape: 'Shape',
       default: 'Default',
       primary: 'Primary',
-      danger: 'Danger',
+      error: 'Error',
       warning: 'Warning',
       large: 'Large',
       normal: 'Normal',

@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders demo correctly 1`] = `
+<div>
+  <div>
+    <div class="zvm-row">
+      <div class="zvm-col zvm-col--8">span: 8</div>
+      <div class="zvm-col zvm-col--8">span: 8</div>
+      <div class="zvm-col zvm-col--8">span: 8</div>
+    </div>
+    <div class="zvm-row">
+      <div class="zvm-col zvm-col--4">span: 4</div>
+      <div class="zvm-col zvm-col--10 zvm-col--offset-4">offset: 4, span: 10</div>
+    </div>
+    <div class="zvm-row">
+      <div class="zvm-col zvm-col--12 zvm-col--offset-12">offset: 12, span: 12</div>
+    </div>
+  </div>
+  <div>
+    <div class="zvm-row" style="margin-left:-10px;margin-right:-10px;">
+      <div class="zvm-col zvm-col--8" style="padding-left:10px;padding-right:10px;">span: 8</div>
+      <div class="zvm-col zvm-col--8" style="padding-left:10px;padding-right:10px;">span: 8</div>
+      <div class="zvm-col zvm-col--8" style="padding-left:10px;padding-right:10px;">span: 8</div>
+    </div>
+  </div>
+  <div>
+    <div class="zvm-row zvm-row--flex">
+      <div class="zvm-col zvm-col--6">span: 6</div>
+      <div class="zvm-col zvm-col--6">span: 6</div>
+      <div class="zvm-col zvm-col--6">span: 6</div>
+    </div>
+    <div class="zvm-row zvm-row--flex zvm-row--justify-center">
+      <div class="zvm-col zvm-col--6">span: 6</div>
+      <div class="zvm-col zvm-col--6">span: 6</div>
+      <div class="zvm-col zvm-col--6">span: 6</div>
+    </div>
+    <div class="zvm-row zvm-row--flex zvm-row--justify-end">
+      <div class="zvm-col zvm-col--6">span: 6</div>
+      <div class="zvm-col zvm-col--6">span: 6</div>
+      <div class="zvm-col zvm-col--6">span: 6</div>
+    </div>
+    <div class="zvm-row zvm-row--flex zvm-row--justify-space-between">
+      <div class="zvm-col zvm-col--6">span: 6</div>
+      <div class="zvm-col zvm-col--6">span: 6</div>
+      <div class="zvm-col zvm-col--6">span: 6</div>
+    </div>
+    <div class="zvm-row zvm-row--flex zvm-row--justify-space-around">
+      <div class="zvm-col zvm-col--6">span: 6</div>
+      <div class="zvm-col zvm-col--6">span: 6</div>
+      <div class="zvm-col zvm-col--6">span: 6</div>
+    </div>
+  </div>
+</div>
+`;

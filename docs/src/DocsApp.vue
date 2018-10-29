@@ -34,7 +34,7 @@ export default {
 
     currentSimulator() {
       const { name } = this.$route;
-      return name && ~name.indexOf('demo') ? 1 : 0;
+      return name && ~name.indexOf('case') ? 1 : 0;
     }
   },
 
@@ -60,6 +60,15 @@ export default {
     font-size: 36px;
     line-height: 60px;
     font-weight: normal;
+  }
+
+  .zvm-doc-intro__preview {
+    font-size: 18px;
+    line-height: 60px;
+    font-weight: normal;
+    display: block;
+    color: #22ab28;
+    text-decoration: none;
   }
 
   p {

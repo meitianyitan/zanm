@@ -11,7 +11,6 @@
 
 <script>
 import create from '../utils/create-basic';
-
 const DEFAULT_COLOR = '#c9c9c9';
 
 export default create({

@@ -43,7 +43,7 @@ const registerRoute = (isDemo) => {
         path = path.replace('/', '');
 
         let component;
-        if (path === 'demo') {
+        if (path === 'case') {
           component = DemoPages;
         } else {
           component = isDemo ? componentDemos[path] : componentDocs[`${path}.${lang}`];

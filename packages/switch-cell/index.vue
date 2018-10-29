@@ -6,13 +6,15 @@
 
 <script>
 import ZanSwitch from '../switch';
+import Cell from '../cell';
 import create from '../utils/create';
 
 export default create({
   name: 'switch-cell',
 
   components: {
-    ZanSwitch
+    ZanSwitch,
+    Cell
   },
 
   props: {

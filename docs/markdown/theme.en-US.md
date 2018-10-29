@@ -7,11 +7,12 @@ We are using [Less](http://lesscss.org/) as the development language for styling
 
 There are some major variables below, all less variables could be found in [Default Variables](https://github.com/meitianyitan/zanm/blob/dev/packages/zanm-css/src/themes/default.less).
 ```less
-@primary-color: #1aad19;
-@text-color: #333;
-@border-color: #eee;
-@active-color: #e8e8e8;
-@background-color: #f8f8f8;
+@primary-color: #1aad19;                         // 全局主色
+@warning-color: #faad14;                         // 警告色
+@success-color: #52c41a;                         // 成功色
+@error-color: #f5222d;                           // 错误色
+@text-color: #333;                               // 主文本色
+@border-color: #eee;                             // 边框色
 ```
 Please report an issue if the existing list of variables is not enough for you.
 

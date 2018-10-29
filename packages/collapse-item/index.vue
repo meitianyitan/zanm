@@ -22,9 +22,14 @@
 import { raf } from '../utils/raf';
 import create from '../utils/create';
 import findParent from '../mixins/find-parent';
+import Cell from '../cell';
 
 export default create({
   name: 'collapse-item',
+
+  components: {
+    Cell
+  },
 
   mixins: [findParent],
 

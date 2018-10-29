@@ -1,22 +1,6 @@
 @import './themes/default.less';
 
 /* button */
-@button-default-color: @text-color;
-@button-default-background-color: @white;
-@button-default-border-color: @border-color;
-@button-primary-color: @white;
-@button-primary-background-color: @primary-color;
-@button-primary-border-color: @primary-color;
-@button-danger-color: @white;
-@button-danger-background-color: @red;
-@button-danger-border-color: @red;
-@button-warning-color: @white;
-@button-warning-background-color: @orange;
-@button-warning-border-color: @orange;
-@button-bottom-action-default-color: @white;
-@button-bottom-action-default-background-color: @orange;
-@button-bottom-action-primary-color: @white;
-@button-bottom-action-primary-background-color: @red;
 
 .@{css-prefix}button {
   position: relative;
@@ -66,10 +50,10 @@
     border: 1px solid @button-primary-border-color;
   }
 
-  &--danger {
-    color: @button-danger-color;
-    background-color: @button-danger-background-color;
-    border: 1px solid @button-danger-border-color;
+  &--error {
+    color: @button-error-color;
+    background-color: @button-error-background-color;
+    border: 1px solid @button-error-border-color;
   }
 
   &--warning {
@@ -81,15 +65,15 @@
   &--plain {
     background-color: @white;
 
-    &.zvm-button--primary {
+    &.@{css-prefix}button--primary {
       color: @button-primary-background-color;
     }
 
-    &.zvm-button--danger {
-      color: @button-danger-background-color;
+    &.@{css-prefix}button--error {
+      color: @button-error-background-color;
     }
 
-    &.zvm-button--warning {
+    &.@{css-prefix}button--warning {
       color: @button-warning-background-color;
     }
   }
@@ -114,7 +98,7 @@
   }
 
   &--loading {
-    .zvm-loading {
+    .@{css-prefix}loading {
       display: inline-block;
     }
   }
@@ -127,7 +111,7 @@
     line-height: 20px;
     font-size: 10px;
 
-    & + .zvm-button--mini {
+    & + .@{css-prefix}button--mini {
       margin-left: 5px;
     }
   }
@@ -147,7 +131,7 @@
     color: @button-bottom-action-default-color;
     background-color: @button-bottom-action-default-background-color;
 
-    &.zvm-button--primary {
+    &.@{css-prefix}button--primary {
       background-color: @button-bottom-action-primary-background-color;
     }
   }

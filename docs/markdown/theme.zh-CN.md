@@ -6,11 +6,12 @@ zanm 的样式使用了 [Less](http://lesscss.org/) 作为开发语言，并定�
 
 以下是一些最常用的通用变量，所有样式变量可以在 [这里](https://github.com/meitianyitan/zanm/blob/dev/packages/zanm-css/src/themes/default.less) 找到。
 ```less
-@primary-color: #1aad19;
-@text-color: #333;
-@border-color: #eee;
-@active-color: #e8e8e8;
-@background-color: #f8f8f8;
+@primary-color: #1aad19;                         // 全局主色
+@warning-color: #faad14;                         // 警告色
+@success-color: #52c41a;                         // 成功色
+@error-color: #f5222d;                           // 错误色
+@text-color: #333;                               // 主文本色
+@border-color: #eee;                             // 边框色
 ```
 如果以上变量不能满足你的定制需求，可以给我们提 issue。
 

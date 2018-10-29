@@ -1,7 +1,12 @@
 <div class="zvm-doc-intro">
-  <img class="zvm-doc-intro__logo" src="http://static.sosout.com/images/zanm-logo.svg" />
-  <h2>Zanm</h2>
-  <p>一套基于 Vue.js 的移动端组件库</p>
+  <img class="zvm-doc-intro__logo" src="http://static.sosout.com/images/preview_qrcode_20181025.png" />
+  <a class="zvm-doc-intro__preview" href="http://m.zantb.com/mobile.html#/zh-CN/">预览地址>></a>
+  <p align="center">
+    <img src="https://www.travis-ci.org/meitianyitan/zanm.svg?branch=dev" alt="Build Status" />
+    <img src="https://img.shields.io/npm/dt/zanm.svg" alt="downloads" />
+    <img src="http://isitmaintained.com/badge/open/meitianyitan/zanm.svg" alt="issue" />
+    <img src="https://img.shields.io/codecov/c/github/meitianyitan/zanm/dev.svg" alt="Coverage Status" />
+  </p>
 </div>
  
 ### 特性
@@ -10,7 +15,11 @@
 * 完善的文档和示例
 * 支持 [babel-plugin-import](https://github.com/ant-design/babel-plugin-import)
 * 支持 TypeScript
-* 支持 SSR
+
+### 支持环境
+
+* 现代浏览器以及 Android 4.0+, iOS 6+
+* 支持服务端渲染
 
 ### 快速上手
 
@@ -21,10 +30,6 @@
 修改代码请阅读我们的 [贡献指南](#/zh-CN/contribution)
 
 使用过程中发现任何问题都可以提 [Issue](https://github.com/meitianyitan/zanm/issues) 给我们，当然，我们也非常欢迎你给我们发 [PR](https://github.com/meitianyitan/zanm/pulls)
-
-### 浏览器支持
-
-现代浏览器以及 Android 4.0+, iOS 6+
 
 ### 链接
 

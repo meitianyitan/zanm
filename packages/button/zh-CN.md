@@ -10,20 +10,20 @@ Vue.use(Button);
 ### 代码演示
 
 #### 按钮类型
-支持`default`、`primary`、`warning`、`danger`四种类型，默认为`default`
+支持`default`、`primary`、`warning`、`error`四种类型，默认为`default`
 
 ```html
 <zvm-button type="default">默认按钮</zvm-button>
 <zvm-button type="primary">主要按钮</zvm-button>
 <zvm-button type="warning">警告按钮</zvm-button>
-<zvm-button type="danger">危险按钮</zvm-button>
+<zvm-button type="error">错误按钮</zvm-button>
 ```
 
 #### 朴素按钮
 
 ```html
 <zvm-button plain type="primary">朴素按钮</zvm-button>
-<zvm-button plain type="danger">朴素按钮</zvm-button>
+<zvm-button plain type="error">朴素按钮</zvm-button>
 ```
 
 #### 禁用状态
@@ -32,21 +32,21 @@ Vue.use(Button);
 
 ```html
 <zvm-button disabled type="primary">禁用状态</zvm-button>
-<zvm-button disabled type="danger">禁用状态</zvm-button>
+<zvm-button disabled type="error">禁用状态</zvm-button>
 ```
 
 #### 加载状态
 
 ```html 
 <zvm-button loading type="primary" />
-<zvm-button loading type="danger" />
+<zvm-button loading type="error" />
 ```
 
 #### 按钮形状
 
 ```html 
 <zvm-button square type="primary">方形按钮</zvm-button>
-<zvm-button round type="danger">圆形按钮</zvm-button>
+<zvm-button round type="error">圆形按钮</zvm-button>
 ```
 
 #### 按钮尺寸
@@ -64,7 +64,7 @@ Vue.use(Button);
 
 | 参数 | 说明 | 类型 | 默认值 |
 |-----------|-----------|-----------|-------------|
-| type | 按钮类型，可选值为 `primary` `warning` `danger` | `String` | `default` |
+| type | 按钮类型，可选值为 `primary` `warning` `error` | `String` | `default` |
 | size | 按钮尺寸，可选值为 `normal` `large` `small` `mini` | `String` | `normal` |
 | text | 按钮文字 | `String` | - |
 | tag | 按钮 HTML 标签 | `String` | `button` |

@@ -2,13 +2,16 @@
 
 exports[`renders demo correctly 1`] = `
 <div>
-  <div><button class="zvm-button zvm-button--default zvm-button--normal"><span class="zvm-button__text">弹出 Actionsheet</span></button>
+  <div><button class="zvm-button zvm-button--default zvm-button--normal">
+      <!----> <span class="zvm-button__text">弹出 Actionsheet</span></button>
     <!---->
   </div>
-  <div><button class="zvm-button zvm-button--default zvm-button--normal"><span class="zvm-button__text">弹出带取消按钮的 Actionsheet</span></button>
+  <div><button class="zvm-button zvm-button--default zvm-button--normal">
+      <!----> <span class="zvm-button__text">弹出带取消按钮的 Actionsheet</span></button>
     <!---->
   </div>
-  <div><button class="zvm-button zvm-button--default zvm-button--normal"><span class="zvm-button__text">弹出带标题的 Actionsheet</span></button>
+  <div><button class="zvm-button zvm-button--default zvm-button--normal">
+      <!----> <span class="zvm-button__text">弹出带标题的 Actionsheet</span></button>
     <!---->
   </div>
 </div>

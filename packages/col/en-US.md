@@ -1,4 +1,4 @@
-## Layout
+## Grid
 
 Quickly and easily create layouts with `zvm-row` and `zvm-col`
 
@@ -13,7 +13,7 @@ Vue.use(Row).use(Col);
 
 #### Basic Usage
 
-Layout are based on 24-column. The attribute `span` in `Col` means the number of column the grid spans. Of course, You can use `offset` attribute to set number of spacing on the left side of the grid.
+We use a 24 aliquot system divided into equal parts. The attribute `span` in `Col` means the number of column the grid spans. Of course, You can use `offset` attribute to set number of spacing on the left side of the grid.
 
 
 ```html

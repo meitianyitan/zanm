@@ -6,8 +6,9 @@
 </template>
 
 <script>
+import create from '../utils/create';
 import Info from '../info';
-import create from '../utils/create-basic';
+
 const prefixCls = 'zvm-icon';
 
 export default create({

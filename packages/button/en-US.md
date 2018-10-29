@@ -12,24 +12,24 @@ Vue.use(Button);
 #### Type
 
 ```html
-<zvm-button type="primary">Primary</zvm-button>
-<zvm-button type="danger">Danger</zvm-button>
 <zvm-button type="default">Default</zvm-button>
+<zvm-button type="primary">Primary</zvm-button>
 <zvm-button type="warning">Warning</zvm-button>
+<zvm-button type="error">Error</zvm-button>
 ```
 
 #### Plain
 
 ```html
 <zvm-button plain type="primary">Primary</zvm-button>
-<zvm-button plain type="danger">Danger</zvm-button>
+<zvm-button plain type="error">Error</zvm-button>
 ```
 
 #### Disabled
 
 ```html
 <zvm-button disabled type="primary">Diabled</zvm-button>
-<zvm-button disabled type="danger">Diabled</zvm-button>
+<zvm-button disabled type="error">Diabled</zvm-button>
 ```
 
 #### Loading
@@ -43,7 +43,7 @@ Vue.use(Button);
 
 ```html 
 <zvm-button square type="primary">Square</zvm-button>
-<zvm-button round type="danger">Round</zvm-button>
+<zvm-button round type="error">Round</zvm-button>
 ```
 
 #### Size
@@ -59,7 +59,7 @@ Vue.use(Button);
 
 | Attribute | Description | Type | Default |
 |-----------|-----------|-----------|-------------|
-| type | Can be set to `primary` `warning` `danger` | `String` | `default` |
+| type | Can be set to `primary` `warning` `error` | `String` | `default` |
 | size | Can be set to `normal` `large` `small` `mini` | `String` | `normal` |
 | text | Text | `String` | - |
 | tag | Tag | `String` | `button` |

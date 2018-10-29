@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders demo correctly 1`] = `
+<div>
+  <div>
+    <div class="demo-button-row"><button class="zvm-button zvm-button--default zvm-button--normal">
+        <!----> <span class="zvm-button__text">默认按钮</span></button> <button class="zvm-button zvm-button--primary zvm-button--normal">
+        <!----> <span class="zvm-button__text">主要按钮</span></button> <button class="zvm-button zvm-button--warning zvm-button--normal">
+        <!----> <span class="zvm-button__text">警告按钮</span></button></div> <button class="zvm-button zvm-button--error zvm-button--normal">
+      <!----> <span class="zvm-button__text">错误按钮</span></button>
+  </div>
+  <div><button class="zvm-button zvm-button--primary zvm-button--normal zvm-button--plain">
+      <!----> <span class="zvm-button__text">朴素按钮</span></button> <button class="zvm-button zvm-button--error zvm-button--normal zvm-button--plain">
+      <!----> <span class="zvm-button__text">朴素按钮</span></button></div>
+  <div><button disabled="disabled" class="zvm-button zvm-button--primary zvm-button--normal zvm-button--disabled zvm-button--unclickable">
+      <!----> <span class="zvm-button__text">禁用状态</span></button> <button disabled="disabled" class="zvm-button zvm-button--error zvm-button--normal zvm-button--disabled zvm-button--unclickable">
+      <!----> <span class="zvm-button__text">禁用状态</span></button></div>
+  <div><button class="zvm-button zvm-button--primary zvm-button--normal zvm-button--loading zvm-button--unclickable">
+      <div class="zvm-loading zvm-loading--circular zvm-loading" style="color:;width:20px;height:20px;"><span class="zvm-loading__spinner zvm-loading__spinner--circular"> <svg viewBox="25 25 50 50" class="zvm-loading__circular"><circle cx="50" cy="50" r="20" fill="none"></circle></svg></span></div> <span class="zvm-button__text"></span>
+    </button> <button class="zvm-button zvm-button--error zvm-button--normal zvm-button--loading zvm-button--unclickable">
+      <div class="zvm-loading zvm-loading--circular zvm-loading" style="color:;width:20px;height:20px;"><span class="zvm-loading__spinner zvm-loading__spinner--circular"> <svg viewBox="25 25 50 50" class="zvm-loading__circular"><circle cx="50" cy="50" r="20" fill="none"></circle></svg></span></div> <span class="zvm-button__text"></span>
+    </button></div>
+  <div><button class="zvm-button zvm-button--primary zvm-button--normal zvm-button--square">
+      <!----> <span class="zvm-button__text">方形按钮</span></button> <button class="zvm-button zvm-button--error zvm-button--normal zvm-button--round">
+      <!----> <span class="zvm-button__text">圆形按钮</span></button></div>
+  <div><button class="zvm-button zvm-button--default zvm-button--large">
+      <!----> <span class="zvm-button__text">大号按钮</span></button> <button class="zvm-button zvm-button--default zvm-button--normal">
+      <!----> <span class="zvm-button__text">普通按钮</span></button> <button class="zvm-button zvm-button--default zvm-button--small">
+      <!----> <span class="zvm-button__text">小型按钮</span></button> <button class="zvm-button zvm-button--default zvm-button--mini">
+      <!----> <span class="zvm-button__text">迷你按钮</span></button></div>
+</div>
+`;

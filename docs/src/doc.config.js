@@ -67,7 +67,7 @@ module.exports = {
         showInMobile: true,
         groups: [
           {
-            groupName: '基础组件',
+            groupName: '基础',
             list: [
               {
                 path: '/button',
@@ -76,6 +76,15 @@ module.exports = {
               {
                 path: '/icon',
                 title: 'Icon 图标'
+              },
+            ]
+          },
+          {
+            groupName: '布局',
+            list: [
+              {
+                path: '/col',
+                title: 'Grid 栅格'
               },
             ]
           },
@@ -148,7 +157,7 @@ module.exports = {
         showInMobile: true,
         groups: [
           {
-            groupName: 'Basic Components',
+            groupName: 'Basic',
             list: [
               {
                 path: '/button',
@@ -157,6 +166,15 @@ module.exports = {
               {
                 path: '/icon',
                 title: 'Icon'
+              },
+            ]
+          },
+          {
+            groupName: 'Layout',
+            list: [
+              {
+                path: '/col',
+                title: 'Grid'
               },
             ]
           },

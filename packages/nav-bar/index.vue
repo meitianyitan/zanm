@@ -23,9 +23,13 @@
 
 <script>
 import create from '../utils/create';
-
+import Icon from '../icon';
 export default create({
   name: 'nav-bar',
+
+  components: {
+    Icon
+  },
 
   props: {
     title: String,

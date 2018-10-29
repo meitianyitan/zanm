@@ -173,7 +173,7 @@ Zanm 中的样式默认使用`px`作为单位，如果需要使用`rem`单位，
 module.exports = {
   plugins: {
     'autoprefixer': {
-      browsers: ['Android >= 4.0', 'iOS >= 7']
+      browsers: ['Android >= 4.0', 'iOS >= 6']
     }
     'postcss-pxtorem': {
       rootValue: 37.5,

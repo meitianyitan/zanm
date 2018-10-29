@@ -35,9 +35,9 @@
 </template>
 
 <script>
-import Icon from '../icon';
 import RouterLink from '../mixins/router-link';
 import create from '../utils/create-basic';
+import Icon from '../icon';
 
 export default create({
   name: 'cell',

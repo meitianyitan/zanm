@@ -5,8 +5,29 @@
 @css-prefix-iconfont    : zvm-icon;
 
 /* default colors */
-@primary-color: #1aad19;
-@text-color: #333;
-@border-color: #eee;
+@primary-color: #1aad19;                         // 全局主色
+@warning-color: #faad14;                         // 警告色
+@success-color: #52c41a;                         // 成功色
+@error-color: #f5222d;                           // 错误色
+@text-color: #333;                               // 主文本色
+@border-color: #eee;                             // 边框色
 @active-color: #e8e8e8;
 @background-color: #f8f8f8;
+
+/* button colos */
+@button-default-color: @text-color;
+@button-default-background-color: @white;
+@button-default-border-color: @border-color;
+@button-primary-color: @white;
+@button-primary-background-color: @primary-color;
+@button-primary-border-color: @primary-color;
+@button-error-color: @white;
+@button-error-background-color: @error-color;
+@button-error-border-color: @error-color;
+@button-warning-color: @white;
+@button-warning-background-color: @warning-color;
+@button-warning-border-color: @warning-color;
+@button-bottom-action-default-color: @white;
+@button-bottom-action-default-background-color: @warning-color;
+@button-bottom-action-primary-color: @white;
+@button-bottom-action-primary-background-color: @error-color;
