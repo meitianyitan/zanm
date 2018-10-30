@@ -1,6 +1,9 @@
 // This file is auto gererated by build/build-entry.js
 import Actionsheet from './actionsheet';
+import Badge from './badge';
+import BadgeGroup from './badge-group';
 import Button from './button';
+import Card from './card';
 import Cell from './cell';
 import CellGroup from './cell-group';
 import Col from './col';
@@ -16,11 +19,15 @@ import Row from './row';
 import SwipeCell from './swipe-cell';
 import Switch from './switch';
 import SwitchCell from './switch-cell';
+import Tag from './tag';
 
 const version = '0.1.1';
 const components = [
   Actionsheet,
+  Badge,
+  BadgeGroup,
   Button,
+  Card,
   Cell,
   CellGroup,
   Col,
@@ -34,7 +41,8 @@ const components = [
   Row,
   SwipeCell,
   Switch,
-  SwitchCell
+  SwitchCell,
+  Tag
 ];
 
 const install = Vue => {
@@ -53,7 +61,10 @@ export {
   install,
   version,
   Actionsheet,
+  Badge,
+  BadgeGroup,
   Button,
+  Card,
   Cell,
   CellGroup,
   Col,
@@ -68,7 +79,8 @@ export {
   Row,
   SwipeCell,
   Switch,
-  SwitchCell
+  SwitchCell,
+  Tag
 };
 
 export default {

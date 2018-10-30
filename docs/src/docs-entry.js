@@ -12,8 +12,12 @@ export default {
   'theme.zh-CN': () => import('../markdown/theme.zh-CN.md'),
   'actionsheet.en-US': () => import('../../packages/actionsheet/en-US.md'),
   'actionsheet.zh-CN': () => import('../../packages/actionsheet/zh-CN.md'),
+  'badge.en-US': () => import('../../packages/badge/en-US.md'),
+  'badge.zh-CN': () => import('../../packages/badge/zh-CN.md'),
   'button.en-US': () => import('../../packages/button/en-US.md'),
   'button.zh-CN': () => import('../../packages/button/zh-CN.md'),
+  'card.en-US': () => import('../../packages/card/en-US.md'),
+  'card.zh-CN': () => import('../../packages/card/zh-CN.md'),
   'col.en-US': () => import('../../packages/col/en-US.md'),
   'col.zh-CN': () => import('../../packages/col/zh-CN.md'),
   'collapse.en-US': () => import('../../packages/collapse/en-US.md'),
@@ -30,6 +34,8 @@ export default {
   'switch.zh-CN': () => import('../../packages/switch/zh-CN.md'),
   'switch-cell.en-US': () => import('../../packages/switch-cell/en-US.md'),
   'switch-cell.zh-CN': () => import('../../packages/switch-cell/zh-CN.md'),
+  'tag.en-US': () => import('../../packages/tag/en-US.md'),
+  'tag.zh-CN': () => import('../../packages/tag/zh-CN.md'),
   'zanm-css.en-US': () => import('../../packages/zanm-css/en-US.md'),
   'zanm-css.zh-CN': () => import('../../packages/zanm-css/zh-CN.md')
 };

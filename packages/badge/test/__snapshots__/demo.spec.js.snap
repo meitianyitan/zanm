@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders demo correctly 1`] = `
+<div>
+  <div>
+    <div class="zvm-hairline--top-bottom zvm-badge-group"><a class="zvm-badge zvm-badge--select zvm-hairline">
+        <!---->
+        标签名称
+      </a> <a class="zvm-badge zvm-hairline">
+        <div class="zvm-info zvm-badge__info">8</div>
+        标签名称
+      </a> <a class="zvm-badge zvm-hairline">
+        <div class="zvm-info zvm-badge__info">99</div>
+        标签名称
+      </a> <a class="zvm-badge zvm-hairline">
+        <div class="zvm-info zvm-badge__info">99+</div>
+        标签名称
+      </a></div>
+  </div>
+</div>
+`;

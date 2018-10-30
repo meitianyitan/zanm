@@ -46,18 +46,18 @@ module.exports = {
                 path: '/locale',
                 title: '国际化'
               },
-              {
-                path: '/changelog',
-                title: '更新日志'
-              },
+              // {
+              //   path: '/changelog',
+              //   title: '更新日志'
+              // },
               {
                 path: '/contribution',
                 title: '贡献指南'
               },
-              {
-                path: '/case',
-                title: '实践案例'
-              },
+              // {
+              //   path: '/case',
+              //   title: '实践案例'
+              // },
             ]
           }
         ]
@@ -67,7 +67,7 @@ module.exports = {
         showInMobile: true,
         groups: [
           {
-            groupName: '基础',
+            groupName: '基础组件',
             list: [
               {
                 path: '/button',
@@ -80,11 +80,33 @@ module.exports = {
             ]
           },
           {
-            groupName: '布局',
+            groupName: '布局组件',
             list: [
               {
                 path: '/col',
                 title: 'Grid 栅格'
+              },
+              {
+                path: '/card',
+                title: 'Card 卡片'
+              },
+            ]
+          },
+          {
+            groupName: '导航组件',
+            list: [
+              {
+                path: '/badge',
+                title: 'Badge 徽标数'
+              },
+            ]
+          },
+          {
+            groupName: '视图组件',
+            list: [
+              {
+                path: '/tag',
+                title: 'Tag 标记'
               },
             ]
           },
@@ -136,18 +158,18 @@ module.exports = {
                 path: '/locale',
                 title: 'Internationalization'
               },
-              {
-                path: '/changelog',
-                title: 'Changelog'
-              },
+              // {
+              //   path: '/changelog',
+              //   title: 'Changelog'
+              // },
               {
                 path: '/contribution',
                 title: 'Contributing'
               },
-              {
-                path: '/case',
-                title: 'Case pages'
-              },
+              // {
+              //   path: '/case',
+              //   title: 'Case pages'
+              // },
             ]
           }
         ]
@@ -157,7 +179,7 @@ module.exports = {
         showInMobile: true,
         groups: [
           {
-            groupName: 'Basic',
+            groupName: 'Basic Components',
             list: [
               {
                 path: '/button',
@@ -170,11 +192,33 @@ module.exports = {
             ]
           },
           {
-            groupName: 'Layout',
+            groupName: 'Layout Components',
             list: [
               {
                 path: '/col',
                 title: 'Grid'
+              },
+              {
+                path: '/card',
+                title: 'Card'
+              },
+            ]
+          },
+          {
+            groupName: 'Navigation Components',
+            list: [
+              {
+                path: '/badge',
+                title: 'Badge'
+              },
+            ]
+          },
+          {
+            groupName: 'View Components',
+            list: [
+              {
+                path: '/tag',
+                title: 'Tag'
               },
             ]
           },

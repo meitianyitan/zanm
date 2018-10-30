@@ -1,0 +1,54 @@
+@import './themes/default.less';
+
+.@{css-prefix}tag {
+  display: inline-block;
+  padding: 2px 5px;
+  line-height: normal;
+  border-radius: 3px;
+  font-size: 10px;
+  background: @gray;
+  color: @white;
+
+  &::after {
+    border-color: currentColor;
+    border-radius: 4px;
+  }
+
+  &--mark {
+    padding-right: 7px;
+    border-radius: 0 8px 8px 0;
+
+    &::after {
+      border-radius: 0 16px 16px 0;
+    }
+  }
+
+  &--success {
+    background: @green;
+
+    &.@{css-prefix}tag--plain {
+      color: @green;
+    }
+  }
+
+  &--danger {
+    background: @button-error-background-color;
+
+    &.@{css-prefix}tag--plain {
+      color: @button-error-background-color;
+    }
+  }
+
+  &--primary {
+    background: @blue;
+
+    &.@{css-prefix}tag--plain {
+      color: @blue;
+    }
+  }
+
+  &--plain {
+    background: @white;
+    color: @gray;
+  }
+}

@@ -130,7 +130,7 @@
     "webpack": "^4.20.2",
     "webpack-cli": "^3.1.2",
     "webpack-serve": "^2.0.2",
-    "zanm-doc": "^0.2.5"
+    "zanm-doc": "^0.2.8"
   },
   "config": {
     "commitizen": {
