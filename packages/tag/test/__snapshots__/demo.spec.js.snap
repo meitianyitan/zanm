@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders demo correctly 1`] = `
+<div>
+  <div><span class="zvm-tag">标签</span> <span class="zvm-tag zvm-tag--danger">标签</span> <span class="zvm-tag zvm-tag--success">标签</span> <span class="zvm-tag zvm-tag--primary">标签</span></div>
+  <div><span class="zvm-tag zvm-tag--plain zvm-hairline--surround">标签</span> <span class="zvm-tag zvm-tag--plain zvm-tag--danger zvm-hairline--surround">标签</span> <span class="zvm-tag zvm-tag--plain zvm-tag--primary zvm-hairline--surround">标签</span> <span class="zvm-tag zvm-tag--plain zvm-tag--success zvm-hairline--surround">标签</span></div>
+  <div><span class="zvm-tag zvm-tag--mark">标签</span> <span class="zvm-tag zvm-tag--mark zvm-tag--danger">标签</span> <span class="zvm-tag zvm-tag--mark zvm-tag--primary">标签</span> <span class="zvm-tag zvm-tag--mark zvm-tag--success">标签</span></div>
+</div>
+`;

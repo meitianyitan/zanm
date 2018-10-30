@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders demo correctly 1`] = `
+<div>
+  <div>
+    <div class="zvm-card"><a href="javascript:;" class="zvm-card__thumb"><img src="//img.yzcdn.cn/upload_files/2017/07/02/af5b9f44deaeb68000d7e4a711160c53.jpg" class="zvm-card__img">
+        <!----></a>
+      <div class="zvm-card__content">
+        <div class="zvm-card__left">
+          <div class="zvm-card__title">商品标题</div>
+          <div class="zvm-card__desc zvm-ellipsis">描述信息</div>
+        </div>
+        <div class="zvm-card__right">
+          <div>¥ 2.00</div>
+          <!---->
+          <div class="zvm-card__num">x 2</div>
+        </div>
+      </div>
+      <!---->
+    </div>
+  </div>
+  <div>
+    <div class="zvm-card"><a href="javascript:;" class="zvm-card__thumb"><img src="//img.yzcdn.cn/upload_files/2017/07/02/af5b9f44deaeb68000d7e4a711160c53.jpg" class="zvm-card__img"> <span class="zvm-tag zvm-tag--mark zvm-tag--danger zvm-card__tag">
+      标签
+    </span></a>
+      <div class="zvm-card__content">
+        <div class="zvm-card__left">
+          <div class="zvm-card__title">商品标题</div>
+          <div class="zvm-card__desc zvm-ellipsis">描述信息</div>
+        </div>
+        <div class="zvm-card__right">
+          <div>¥ 2.00</div>
+          <div class="zvm-card__origin-price">¥ 10.00</div>
+          <div class="zvm-card__num">x 2</div>
+        </div>
+      </div>
+      <div class="zvm-card__footer">
+        <div><button class="zvm-button zvm-button--default zvm-button--mini">
+            <!----> <span class="zvm-button__text">按钮</span></button> <button class="zvm-button zvm-button--default zvm-button--mini">
+            <!----> <span class="zvm-button__text">按钮</span></button></div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
