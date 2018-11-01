@@ -67,6 +67,9 @@
       "git add"
     ]
   },
+  "peerDependencies": {
+    "vue": ">=2.0.0"
+  },
   "dependencies": {
     "@babel/runtime": "^7.1.2",
     "vue-lazyload": "^1.2.6"
