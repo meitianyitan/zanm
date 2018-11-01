@@ -105,6 +105,10 @@ module.exports = {
             groupName: '视图组件',
             list: [
               {
+                path: '/toast',
+                title: 'Toast 轻提示'
+              },
+              {
                 path: '/tag',
                 title: 'Tag 标记'
               },
@@ -216,6 +220,10 @@ module.exports = {
           {
             groupName: 'View Components',
             list: [
+              {
+                path: '/toast',
+                title: 'Toast'
+              },
               {
                 path: '/tag',
                 title: 'Tag'

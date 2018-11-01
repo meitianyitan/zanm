@@ -36,6 +36,8 @@ export default {
   'switch-cell.zh-CN': () => import('../../packages/switch-cell/zh-CN.md'),
   'tag.en-US': () => import('../../packages/tag/en-US.md'),
   'tag.zh-CN': () => import('../../packages/tag/zh-CN.md'),
+  'toast.en-US': () => import('../../packages/toast/en-US.md'),
+  'toast.zh-CN': () => import('../../packages/toast/zh-CN.md'),
   'zanm-css.en-US': () => import('../../packages/zanm-css/en-US.md'),
   'zanm-css.zh-CN': () => import('../../packages/zanm-css/zh-CN.md')
 };

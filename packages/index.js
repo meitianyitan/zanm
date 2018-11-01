@@ -20,6 +20,7 @@ import SwipeCell from './swipe-cell';
 import Switch from './switch';
 import SwitchCell from './switch-cell';
 import Tag from './tag';
+import Toast from './toast';
 
 const version = '0.1.1';
 const components = [
@@ -42,7 +43,8 @@ const components = [
   SwipeCell,
   Switch,
   SwitchCell,
-  Tag
+  Tag,
+  Toast
 ];
 
 const install = Vue => {
@@ -80,7 +82,8 @@ export {
   SwipeCell,
   Switch,
   SwitchCell,
-  Tag
+  Tag,
+  Toast
 };
 
 export default {

@@ -14,5 +14,6 @@ export default {
   'switch': () => wrapper(import('../../packages/switch/demo'), 'switch'),
   'switch-cell': () => wrapper(import('../../packages/switch-cell/demo'), 'switch-cell'),
   'tag': () => wrapper(import('../../packages/tag/demo'), 'tag'),
+  'toast': () => wrapper(import('../../packages/toast/demo'), 'toast'),
   'zanm-css': () => wrapper(import('../../packages/zanm-css/demo'), 'zanm-css')
 };
