@@ -11,29 +11,29 @@ export default {
   nameEmpty: '請填寫姓名',
   confirmDelete: '確定要刪除麽',
   telInvalid: '請填寫正確的電話',
-  zanContactCard: {
+  zvmContactCard: {
     addText: '添加聯系人'
   },
-  zanContactList: {
+  zvmContactList: {
     addText: '新建聯系人'
   },
-  zanPagination: {
+  zvmPagination: {
     prev: '上一頁',
     next: '下一頁'
   },
-  zanPullRefresh: {
+  zvmPullRefresh: {
     pulling: '下拉即可刷新...',
     loosing: '釋放即可刷新...'
   },
-  zanSubmitBar: {
+  zvmSubmitBar: {
     label: '合計：'
   },
-  zanCouponCell: {
+  zvmCouponCell: {
     title: '優惠券',
     tips: '使用優惠',
     count: count => `您有 ${count} 個可用優惠`
   },
-  zanCouponList: {
+  zvmCouponList: {
     empty: '暫無優惠券',
     exchange: '兌換',
     close: '不使用優惠',
@@ -41,13 +41,13 @@ export default {
     disabled: '不可使用優惠券',
     placeholder: '請輸入優惠碼'
   },
-  zanCouponItem: {
+  zvmCouponItem: {
     valid: '有效期',
     unlimited: '無使用門檻',
     discount: discount => `${discount}折`,
     condition: (condition) => `滿${condition}元可用`
   },
-  zanAddressEdit: {
+  zvmAddressEdit: {
     area: '地區',
     postal: '郵政編碼',
     areaEmpty: '請選擇地區',
@@ -58,11 +58,11 @@ export default {
     namePlaceholder: '收貨人姓名',
     areaPlaceholder: '選擇省 / 市 / 區'
   },
-  zanAddressEditDetail: {
+  zvmAddressEditDetail: {
     label: '詳細地址',
     placeholder: '街道門牌、樓層房間號等信息'
   },
-  zanAddressList: {
+  zvmAddressList: {
     add: '新增地址'
   }
 };

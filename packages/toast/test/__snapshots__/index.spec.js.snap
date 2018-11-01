@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`create a forbidClick toast 1`] = `
+<div class="zvm-toast zvm-toast--text zvm-toast--middle" style="display: none;" name="zvm-fade">
+  <div></div>
+  <!---->
+  <!---->
+</div>
+`;

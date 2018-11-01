@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import ZanSwitch from '../switch';
+import ZvmSwitch from '../switch';
 import Cell from '../cell';
 import create from '../utils/create';
 
@@ -13,7 +13,7 @@ export default create({
   name: 'switch-cell',
 
   components: {
-    ZanSwitch,
+    ZvmSwitch,
     Cell
   },
 

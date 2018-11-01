@@ -19,7 +19,7 @@ import { Locale } from 'zanm';
 
 const messages = {
   'zh-CN': {
-    zanPicker: {
+    zvmPicker: {
       confirm: '关闭' // 将'确认'修改为'关闭'
     }
   }

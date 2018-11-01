@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders demo correctly 1`] = `
+<div>
+  <div><button class="zvm-button zvm-button--default zvm-button--normal">
+      <!----> <span class="zvm-button__text">文字提示</span></button></div>
+  <div><button class="zvm-button zvm-button--default zvm-button--normal">
+      <!----> <span class="zvm-button__text">加载提示</span></button></div>
+  <div><button class="zvm-button zvm-button--default zvm-button--normal">
+      <!----> <span class="zvm-button__text">成功提示</span></button> <button class="zvm-button zvm-button--default zvm-button--normal">
+      <!----> <span class="zvm-button__text">失败提示</span></button></div>
+  <div><button class="zvm-button zvm-button--default zvm-button--normal">
+      <!----> <span class="zvm-button__text">高级用法</span></button></div>
+</div>
+`;

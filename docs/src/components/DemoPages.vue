@@ -20,7 +20,7 @@ import { Locale } from '../../../packages';
 
 Locale.add({
   'zh-CN': {
-    zanDocDemoPages: {
+    zvmDocDemoPages: {
       title: '示例',
       source: '源代码',
       description: '下面是一些使用 Zanm 搭建的示例页面，点击图片切换至对应示例。',
@@ -28,7 +28,7 @@ Locale.add({
     }
   },
   'en-US': {
-    zanDocDemoPages: {
+    zvmDocDemoPages: {
       title: 'Demo Pages',
       source: 'Source code',
       description: 'Here are some of the demo pages built using Zanm, click on the picture to switch to the corresponding demo.',

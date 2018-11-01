@@ -1,6 +1,6 @@
 <template>
   <div class="side-nav">
-    <h1 class="zanui-title">
+    <h1 class="zvmui-title">
       <img class="zvm-doc-intro__logo" src="http://static.sosout.com/images/zanm-logo.svg" alt="zvm-doc-intro__logo" >
       <span>Zanm</span>
     </h1>
@@ -8,7 +8,7 @@
       <span :class="{ active: $zanmLang === 'en-US' }" @click="switchLang('en-US')">EN</span>
       <span :class="{ active: $zanmLang === 'zh-CN' }" @click="switchLang('zh-CN')">中文</span>
     </div>
-    <h2 class="zanui-desc">{{ description }}</h2>
+    <h2 class="zvmui-desc">{{ description }}</h2>
     <template v-for="item in navList" v-if="item.showInMobile">
       <mobile-nav
         v-for="(group, index) in item.groups"
@@ -64,14 +64,14 @@ export default {
   box-sizing: border-box;
   padding: 60px 15px 20px;
 
-  .zanui-title,
-  .zanui-desc {
+  .zvmui-title,
+  .zvmui-desc {
     text-align: center;
     font-weight: normal;
     user-select: none;
   }
 
-  .zanui-title {
+  .zvmui-title {
     margin: 0 0 15px;
 
     img,
@@ -91,7 +91,7 @@ export default {
     }
   }
 
-  .zanui-desc {
+  .zvmui-desc {
     font-size: 14px;
     color: #455a64;
     margin: 0 0 60px;

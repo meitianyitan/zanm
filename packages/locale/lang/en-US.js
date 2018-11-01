@@ -11,29 +11,29 @@ export default {
   nameEmpty: 'Please fill in the name',
   confirmDelete: 'Are you sure you want to delete?',
   telInvalid: 'Malformed phone number',
-  zanContactCard: {
+  zvmContactCard: {
     addText: 'Add contact info'
   },
-  zanContactList: {
+  zvmContactList: {
     addText: 'Add new contact'
   },
-  zanPagination: {
+  zvmPagination: {
     prev: 'Previous',
     next: 'Next'
   },
-  zanPullRefresh: {
+  zvmPullRefresh: {
     pulling: 'Pull to refresh...',
     loosing: 'Loose to refresh...'
   },
-  zanSubmitBar: {
+  zvmSubmitBar: {
     label: 'Total：'
   },
-  zanCouponCell: {
+  zvmCouponCell: {
     title: 'Coupon',
     tips: 'Select coupon',
     count: count => `You have ${count} offers`
   },
-  zanCouponList: {
+  zvmCouponList: {
     empty: 'No coupons',
     exchange: 'Exchange',
     close: 'Close',
@@ -41,13 +41,13 @@ export default {
     disabled: 'Unavailable',
     placeholder: 'Coupon code'
   },
-  zanCouponItem: {
+  zvmCouponItem: {
     valid: 'Valid',
     unlimited: 'Unlimited',
     discount: discount => `${discount * 10}% off`,
     condition: condition => `At least ${condition}`
   },
-  zanAddressEdit: {
+  zvmAddressEdit: {
     area: 'Area',
     postal: 'Postal',
     areaEmpty: 'Please select a receiving area',
@@ -58,11 +58,11 @@ export default {
     namePlaceholder: 'Name',
     areaPlaceholder: 'Area'
   },
-  zanAddressEditDetail: {
+  zvmAddressEditDetail: {
     label: 'Address',
     placeholder: 'Address'
   },
-  zanAddressList: {
+  zvmAddressList: {
     add: 'Add new address'
   }
 };

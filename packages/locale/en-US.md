@@ -19,7 +19,7 @@ import { Locale } from 'zanm';
 
 const messages = {
   'en-US': {
-    zanPicker: {
+    zvmPicker: {
       confirm: 'Close'
     }
   }
