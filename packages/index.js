@@ -22,7 +22,7 @@ import SwitchCell from './switch-cell';
 import Tag from './tag';
 import Toast from './toast';
 
-const version = '0.1.1';
+const version = '0.1.4';
 const components = [
   Actionsheet,
   Badge,
