@@ -159,6 +159,204 @@ Vue.use(Zanm);
 
 > 注意：配置 babel-plugin-import 插件后将不允许导入所有组件
 
+### 服务端渲染
+#### 方式一. 使用[babel-plugin-import](https://github.com/ant-design/babel-plugin-import)(推荐)
+安装`babel-plugin-import`插件：
+``` bash
+$ npm i babel-plugin-import -D
+```
+修改`nuxt.config.js`，以下标有`zanm-nuxt-ssr-config`就是需要配置的地方：
+``` js
+const pkg = require('./package')
+
+module.exports = {
+  mode: 'universal',
+
+  /*
+  ** Headers of the page
+  */
+  head: {
+    title: pkg.name,
+    meta: [
+      { charset: 'utf-8' },
+      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+      { hid: 'description', name: 'description', content: pkg.description }
+    ],
+    link: [
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+    ]
+  },
+
+  /*
+  ** Customize the progress-bar color
+  */
+  loading: { color: '#fff' },
+
+  /*
+  ** Global CSS
+  */
+  css: [
+    // zanm-nuxt-ssr-config 全部引用的时候需要用到
+    // 'zanm/lib/zanm-css/index.css'
+  ],
+
+  /*
+  ** Plugins to load before mounting the App
+  */
+  plugins: [
+    { src: '@/plugins/zanm', ssr: true }
+  ],
+
+  /*
+  ** Nuxt.js modules
+  */
+  modules: [
+  ],
+
+  /*
+  ** Build configuration
+  */
+  build: {
+    analyze: true,
+    vendor: ['zanm'],
+    maxChunkSize: 300000,
+    // zanm-nuxt-ssr-config
+    babel: {
+      plugins: [
+        [
+          'component',
+          {
+            'libraryName': 'zanm',
+            'styleLibraryName': 'zanm-css'
+          }
+        ]
+      ]
+    },
+    /*
+    ** You can extend webpack config here
+    */
+    extend(config, ctx) {
+      // Run ESLint on save
+      if (ctx.isDev && ctx.isClient) {
+        config.module.rules.push({
+          enforce: 'pre',
+          test: /\.(js|vue)$/,
+          loader: 'eslint-loader',
+          exclude: /(node_modules)/
+        })
+        // zanm-nuxt-ssr-config 这里需要安装 url-loader 插件
+        config.module.rules.push({
+          test: /\.(ttf|svg)$/,
+          loader: 'url-loader'
+        })
+      }
+    }
+  }
+}
+```
+
+编辑`plugins/zanm`：
+``` js
+import Vue from 'vue'
+import { Button } from 'zanm'
+Vue.component(Button.name, Button)
+```
+最后，使用组件：
+``` html
+<zvm-button type="primary">主要按钮</zvm-button>
+```
+
+#### 方式二：导入所有组件
+
+修改`nuxt.config.js`，以下标有`zanm-nuxt-ssr-config`就是需要配置的地方：
+``` js
+const pkg = require('./package')
+
+module.exports = {
+  mode: 'universal',
+
+  /*
+  ** Headers of the page
+  */
+  head: {
+    title: pkg.name,
+    meta: [
+      { charset: 'utf-8' },
+      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+      { hid: 'description', name: 'description', content: pkg.description }
+    ],
+    link: [
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+    ]
+  },
+
+  /*
+  ** Customize the progress-bar color
+  */
+  loading: { color: '#fff' },
+
+  /*
+  ** Global CSS
+  */
+  css: [
+    // zanm-nuxt-ssr-config
+    'zanm/lib/zanm-css/index.css'
+  ],
+
+  /*
+  ** Plugins to load before mounting the App
+  */
+  plugins: [
+    // zanm-nuxt-ssr-config
+    '@/plugins/zanm'
+  ],
+
+  /*
+  ** Nuxt.js modules
+  */
+  modules: [
+  ],
+
+  /*
+  ** Build configuration
+  */
+  build: {
+    analyze: true,
+    /*
+    ** You can extend webpack config here
+    */
+    extend(config, ctx) {
+      // Run ESLint on save
+      if (ctx.isDev && ctx.isClient) {
+        config.module.rules.push({
+          enforce: 'pre',
+          test: /\.(js|vue)$/,
+          loader: 'eslint-loader',
+          exclude: /(node_modules)/
+        })
+        // zanm-nuxt-ssr-config  这里需要安装 url-loader 插件
+        config.module.rules.push({
+          test: /\.(ttf|svg)$/,
+          loader: 'url-loader'
+        })
+      }
+    }
+  }
+}
+```
+
+编辑`plugins/zanm`：
+``` js
+import Vue from 'vue'
+import Zanm from 'zanm'
+
+Vue.use(Zanm)
+```
+
+最后，使用组件：
+``` html
+<zvm-button type="primary">主要按钮</zvm-button>
+```
 
 ### Rem 适配
 
