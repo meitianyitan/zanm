@@ -21,6 +21,8 @@ gulp.task('lib', ['compile'], () => {
   fs.copySync('./lib', '../../es/zanm-css');
   fs.copySync('./src', '../../lib/zanm-less');
   fs.copySync('./src', '../../es/zanm-less');
+  fs.copySync('./src/assets', '../../lib/zanm-css/assets');
+  fs.copySync('./src/assets', '../../es/zanm-css/assets');
 });
 
 gulp.task('build', ['lib']);
